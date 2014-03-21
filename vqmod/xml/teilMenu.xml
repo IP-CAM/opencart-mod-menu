@@ -1,0 +1,39 @@
+<modification>
+	<id>Teil Menu</id>
+	<version>1.5.x</version>
+	<vqmver>1.0</vqmver> 
+	<author>Yurii Krevnyi</author>
+
+	
+
+	<file name="system/startup.php">
+        <operation>
+            <search position="after"><![CDATA[require_once(DIR_SYSTEM . 'library/template.php');]]></search>
+            <add><![CDATA[require_once(DIR_SYSTEM . 'library/menu.php');require_once(DIR_SYSTEM . 'library/menu_helper.php');]]></add>
+        </operation>
+    </file>
+
+    
+
+	<file name="admin/controller/common/header.php">
+        <operation>
+            <search position="after"><![CDATA[$this->data['zone'] = $this->url->link('localisation/zone', 'token=' . $this->session->data['token'], 'SSL');]]></search>
+            <add><![CDATA[$this->data['teilMenu'] = $this->url->link('design/menu', 'token=' . $this->session->data['token'], 'SSL');]]></add>
+        </operation>
+    </file>
+
+	<file name="admin/view/template/common/header.tpl">
+        <operation>
+            <search position="after"><![CDATA[<li><a href="<?php echo $banner; ?>"><?php echo $text_banner; ?></a></li>]]></search>
+            <add><![CDATA[<li><a href="<?php echo $teilMenu; ?>">Teil Menu</a></li>]]></add>
+        </operation>
+    </file>
+
+    <file name="admin/model/catalog/category.php">
+        <operation>
+            <search position="replace"><![CDATA[public function getCategories($data) {]]></search>
+            <add><![CDATA[public function getCategories($data = NULL) {]]></add>
+        </operation>
+    </file>
+
+</modification>

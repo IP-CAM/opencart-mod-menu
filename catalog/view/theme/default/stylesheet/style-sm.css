@@ -1,0 +1,111 @@
+/*
+ * Theme     : Starting markup template;
+ * Developer : Yurii Krevnyi;
+ * Company   : Teil;
+ * Url       : https://bitbucket.org/ykrevnyi/markup.git;
+ */
+
+@media (max-width: 991px) and (min-width: 768px) {
+
+/****** MENU ******/
+/* common */
+.menu div {}
+.menu {}
+.menu h2 {}
+.menu ul {}
+.menu li {}
+.menu a {}
+.menu a:hover {}
+.menu img {}
+/* 1 level */
+.menu > ul {}
+.menu > ul > li {}
+.menu > ul > li.heading {}
+.menu > ul > li.heading > span {}
+.menu > ul > li.link {}
+.menu > ul > li.banner {}
+.menu > ul > li.banner > a {}
+.menu > ul > li.banner > a > span {}
+.menu > ul > li.active {}
+.menu > ul > li.active > a {}
+.menu > ul > li.active > a > span {}
+.menu > ul > li.active > div {}
+.menu > ul > li:hover {}
+.menu > ul > li:hover > div {}
+.menu > ul > li:hover > a {}
+.menu > ul > li > a {}
+.menu > ul > li.icon > a > img {}
+.menu > ul > li > div {}
+/* 2 level */
+.menu > ul > li > div > ul {}
+.menu > ul > li > div > ul > li {}
+.menu > ul > li > div > ul > li.heading > span {}
+.menu > ul > li > div > ul > li.heading {}
+.menu > ul > li > div > ul > li.link {}
+.menu > ul > li > div > ul > li.banner {}
+.menu > ul > li > div > ul > li.banner:hover {}
+.menu > ul > li > div > ul > li.banner.icon > a {}
+.menu > ul > li > div > ul > li.banner > a {}
+.menu > ul > li > div > ul > li.banner > a > img {}
+.menu > ul > li > div > ul > li.banner > a > span {}
+.menu > ul > li > div > ul > li.banner.icon > a > span {}
+.menu > ul > li > div > ul > li.active {}
+.menu > ul > li > div > ul > li.active > a {}
+.menu > ul > li > div > ul > li.active > div {}
+.menu > ul > li > div > ul > li:hover {}
+.menu > ul > li > div > ul > li:hover > div {}
+.menu > ul > li > div > ul > li:hover > a {}
+.menu > ul > li > div > ul > li > a {}
+.menu > ul > li > div > ul > li.banner.icon > a > img {}
+.menu > ul > li > div > ul > li > div {}
+.menu > ul > li > div > ul > li.banner.icon > a > span {}
+/* 3 level */
+.menu > ul > li > div > ul > li > div > ul {}
+.menu > ul > li > div > ul > li > div > ul > li {}
+.menu > ul > li > div > ul > li > div > ul > li.heading {}
+.menu > ul > li > div > ul > li > div > ul > li.heading:hover {}
+.menu > ul > li > div > ul > li > div > ul > li.heading > span {}
+.menu > ul > li > div > ul > li > div > ul > li.link {}
+.menu > ul > li > div > ul > li > div > ul > li.banner {}
+.menu > ul > li > div > ul > li > div > ul > li.banner:hover {}
+.menu > ul > li > div > ul > li > div > ul > li.banner:hover > a {}
+.menu > ul > li > div > ul > li > div > ul > li.banner > a {}
+.menu > ul > li > div > ul > li > div > ul > li.banner > a > img {}
+.menu > ul > li > div > ul > li > div > ul > li.banner a > span {}
+.menu > ul > li > div > ul > li > div > ul > li.banner.icon a > span {}
+.menu > ul > li > div > ul > li > div > ul > li.active {}
+.menu > ul > li > div > ul > li > div > ul > li.active > a {}
+.menu > ul > li > div > ul > li > div > ul > li.active > div {}
+.menu > ul > li > div > ul > li > div > ul > li:hover {}
+.menu > ul > li > div > ul > li > div > ul > li:hover > div {}
+.menu > ul > li > div > ul > li > div > ul > li:hover > a {}
+.menu > ul > li > div > ul > li > div > ul > li > a {}
+.menu > ul > li > div > ul > li > div > ul > li.banner.icon > a > img {}
+.menu > ul > li > div > ul > li > div > ul > li > div {}
+/* 4 level */
+.menu > ul > li > div > ul > li > div > ul > li > div > ul {}
+.menu > ul > li > div > ul > li > div > ul > li > div > ul > li {}
+.menu > ul > li > div > ul > li > div > ul > li > div > ul > li.heading {}
+.menu > ul > li > div > ul > li > div > ul > li > div > ul > li.heading > span {}
+.menu > ul > li > div > ul > li > div > ul > li > div > ul > li.link {}
+.menu > ul > li > div > ul > li > div > ul > li > div > ul > li.banner {}
+.menu > ul > li > div > ul > li > div > ul > li > div > ul > li.banner:hover {}
+.menu > ul > li > div > ul > li > div > ul > li > div > ul > li.banner:hover > a {}
+.menu > ul > li > div > ul > li > div > ul > li > div > ul > li.banner > a {}
+.menu > ul > li > div > ul > li > div > ul > li > div > ul > li.banner > a > img {}
+.menu > ul > li > div > ul > li > div > ul > li > div > ul > li.banner > a > span {}
+.menu > ul > li > div > ul > li > div > ul > li > div > ul > li.banner.icon {}
+.menu > ul > li > div > ul > li > div > ul > li > div > ul > li.banner.icon > a {}
+.menu > ul > li > div > ul > li > div > ul > li > div > ul > li.banner.icon > a > img {}
+.menu > ul > li > div > ul > li > div > ul > li > div > ul > li.banner.icon > a > span {}
+.menu > ul > li > div > ul > li > div > ul > li > div > ul > li.active {}
+.menu > ul > li > div > ul > li > div > ul > li > div > ul > li.active > a {}
+.menu > ul > li > div > ul > li > div > ul > li > div > ul > li.active > div {}
+.menu > ul > li > div > ul > li > div > ul > li > div > ul > li:hover {}
+.menu > ul > li > div > ul > li > div > ul > li > div > ul > li:hover > div {}
+.menu > ul > li > div > ul > li > div > ul > li > div > ul > li:hover > a {}
+.menu > ul > li > div > ul > li > div > ul > li > div > ul > li > a {}
+.menu > ul > li > div > ul > li > div > ul > li > div > ul > li > a > img {}
+.menu > ul > li > div > ul > li > div > ul > li > div > ul > li > div {}
+
+}

@@ -1,0 +1,204 @@
+.fR {
+    float:right;
+}
+.fL {
+    float:left;
+}
+.hidden{
+    display: none;
+}
+.teilLoader{
+    display:none;
+    margin:2px 8px 0px 0px;
+}
+#form_table{
+    overflow: hidden;
+}
+.image {
+    text-align: center;
+}
+/*--- [ SORTABLE LIST ] ---*/
+ol.sortable, ol.sortable ol {
+    margin: 5px 0 0 25px;
+    padding: 0;
+    list-style-type: none;
+}
+
+ol.sortable {
+    margin: 0;
+    float: left;
+    padding: 1%;
+    width: 98%;
+}
+
+.sortable li {
+    margin: 5px 0 0 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+.sortable li > div  {
+    border: 1px solid #d4d4d4;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border-color: #D4D4D4 #D4D4D4 #BCBCBC;
+    padding: 12px;
+    margin: 0;
+    cursor: move;
+    min-height: 15px;
+    background: #f6f6f6;
+    background: -moz-linear-gradient(top,  #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(47%,#f6f6f6), color-stop(100%,#ededed));
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%);
+    background: -o-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%);
+    background: -ms-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%);
+    background: linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 );
+}
+
+.sortable li div a {
+    text-decoration:none;
+    margin:0 5px;
+}
+
+.sortable li div a span{
+    text-decoration:underline;
+}
+
+.placeholder {
+    border: 1px dashed #4183C4;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.mjs-nestedSortable-error {
+    background: #fbe3e4;
+    border-color: transparent;
+}
+
+/*--- [ ADD MENU FORM ] ---*/
+#add_menu_form {
+    display:none;
+    /**/
+    margin: 1%;
+    border: 1px solid #0D9E00;
+    background: #ECFFF0;
+    border-radius: 5px;
+}
+.add_menu_form {
+    list-style-type: none;
+    margin: 0;
+    padding: 1%;
+}
+.add_menu_form > li {
+    width:600px;
+    margin:5px 0;
+}
+.add_menu_form > li > i {
+    font-style:normal;
+    margin-top:4px;
+    width:250px;
+    float:left;
+}
+.add_menu_form > li > input[type="text"] {
+    width: 246px;
+    padding: 5px 6px;
+    margin: 0px;
+    border: 1px solid #CCC;
+    border-radius: 3px;
+    font-size: 12px;
+    color: #585858;
+}
+
+/************ [ TABS STYLE ] ************/
+.htabs {
+    margin: 0;
+}
+.htabs a {
+    display:block;
+}
+.sortable li.isEditing div{
+    border-radius:3px 3px 0px 0px;
+}
+
+/*--- [ EDIT MENU ITEM STYLE ] ---*/
+table {
+    margin: 0;
+    border: 1px solid #CCC;
+    padding: 11px 23px 21px;
+    list-style-type:none;
+    width:100%;
+}
+
+table tr td:first-child {
+    width: 150px;
+    margin: 5px 0 0;
+}
+table tr td .help-text-container {
+    position: relative;
+    border-bottom: 1px dashed #000;
+    cursor: help;
+}
+table tr td .help-text-container .hover-help {
+    border: 1px solid #000;
+    position: absolute;
+    background: #FFF;
+    display: none;
+    position: absolute;
+    top: -50%;
+    border-radius: 5px;
+    padding: 5px 10px;
+    left: 110%;
+    height: auto;
+    word-wrap: break-word;
+    overflow: hidden;
+    min-width: 140px;
+}
+table tr td .help-text-container:hover .hover-help {
+    display: block;
+}
+table tr td > input {
+    width: 250px;
+}
+table tr td > input[type="checkbox"] {
+    width:auto;
+}
+table tr td > select {
+    width: 257px;
+}
+
+#isEditing > div {
+    border-radius: 3px 3px 0 0;
+}
+/*--- [ TEMPLATE ] ---*/
+textarea.template{
+    width: 500px;
+    height:300px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+/*--- [ CREATE MENU ] ---*/
+#create_menu{
+    list-style-type:none;
+}
+#create_menu > li{
+    margin:10px 0 0;
+}
+#create_menu > li > span{
+    margin:6px 0 0;
+    float: left;
+    width: 200px;
+}
+.depending-field .image {
+    width: 145px;
+    height: 145px;
+    box-sizing: border-box;
+}
+.depending-field .image {
+    height: 145px;
+    width: 145px;
+    box-sizing: border-box;
+
+}
