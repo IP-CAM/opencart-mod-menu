@@ -1,4 +1,8 @@
 $(document).ready(function() {
+	$( '#dl-menu' ).dlmenu({
+	    animationClasses : { classin : 'dl-animate-in-1', classout : 'dl-animate-out-1' }
+	});
+
 	/* Search */
 	$('.button-search').bind('click', function() {
 		url = $('base').attr('href') + 'index.php?route=product/search';

@@ -9,24 +9,57 @@
 
 /****** MENU ******/
 /* common */
-.menu div {}
+#dl-menu {
+	max-width: none;
+}
+
+#dl-menu button.dl-trigger{
+	width: 100%;
+	background: url('../image/menu-bg.png');
+	box-shadow: 0px 0px 10px 1px #000 inset;
+	opacity: 0.7;
+}
+
+#dl-menu button.dl-trigger:hover{
+	opacity: 1;
+}
+
 .menu {}
 .menu h2 {}
 .menu ul {}
 .menu li {}
-.menu a {}
+#dl-menu a {
+	float: none;
+}
 .menu a:hover {}
 .menu img {}
 /* 1 level */
-.menu > ul {}
-.menu > ul > li {}
-.menu > ul > li.heading {}
-.menu > ul > li.heading > span {}
-.menu > ul > li.link {}
-.menu > ul > li.banner {}
-.menu > ul > li.banner > a {}
-.menu > ul > li.banner > a > span {}
-.menu > ul > li.active {}
+.menu > ul.dl-animate-out-1 {}
+#dl-menu > ul {
+	background: url('../image/menu-bg.png');
+	box-shadow: 0px 0px 50px 1px #000 inset;
+}
+
+#dl-menu > ul > li {
+	color: #fff;
+}
+
+#dl-menu > ul > li:hover {
+	background: url('../image/menu-bg.png');
+}
+
+#dl-menu > ul > li.heading {
+	text-shadow: 2px 1px 5px #000;
+	font-weight: 700;
+}
+#dl-menu > ul > li.heading > span {
+
+}
+#dl-menu > ul > li.link {}
+#dl-menu > ul > li.banner {}
+#dl-menu > ul > li.banner > a {}
+#dl-menu > ul > li.banner > a > span {}
+#dl-menu > ul > li.active {}
 .menu > ul > li.active > a {}
 .menu > ul > li.active > a > span {}
 .menu > ul > li.active > div {}
@@ -34,7 +67,11 @@
 .menu > ul > li:hover > div {}
 .menu > ul > li:hover > a {}
 .menu > ul > li > a {}
-.menu > ul > li.icon > a > img {}
+#dl-menu > ul > li.icon > a > img {
+	width: 16px; 
+	height: 16px; 
+	margin: 2px 3px 0px 3px;
+}
 .menu > ul > li > div {}
 /* 2 level */
 .menu > ul > li > div > ul {}
@@ -46,7 +83,11 @@
 .menu > ul > li > div > ul > li.banner:hover {}
 .menu > ul > li > div > ul > li.banner.icon > a {}
 .menu > ul > li > div > ul > li.banner > a {}
-.menu > ul > li > div > ul > li.banner > a > img {}
+#dl-menu > ul > li > ul > li.banner > a > img {
+	width: 16px; 
+	height: 16px; 
+	margin: 2px 3px 0px 3px;
+}
 .menu > ul > li > div > ul > li.banner > a > span {}
 .menu > ul > li > div > ul > li.banner.icon > a > span {}
 .menu > ul > li > div > ul > li.active {}

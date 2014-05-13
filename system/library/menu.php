@@ -111,6 +111,7 @@ class Menu {
             // Define how mutch children has current menu item
             $num_children = 0;
 
+
             foreach ($rows as $menu_item)
             {
                 if ($menu_item['parent'] == $row['id'])
@@ -182,7 +183,6 @@ class Menu {
                     {
                         // Static view
                         $result .= "<ul class='dl-submenu'>";
-                        $result .= "<li class='dl-back'><a href='#''>back</a></li>";
                         $result .= self::buildMenu($rows, $row['id']);
                         $result .= "</ul>";
                     }

@@ -8,3 +8,8 @@
 2014-03-18 12:25:58 - PHP Notice:  Undefined offset: 0 in C:\xampp\sites\opencart.dev\www\admin\model\design\menu.php on line 119
 2014-03-18 12:25:58 - PHP Notice:  Undefined offset: 0 in C:\xampp\sites\opencart.dev\www\admin\model\design\menu.php on line 120
 2014-03-18 12:25:58 - PHP Notice:  Undefined offset: 0 in C:\xampp\sites\opencart.dev\www\admin\model\design\menu.php on line 121
+2014-05-13 12:40:05 - PHP Notice:  Undefined offset: 1 in D:\xampp\sites\opencart.dev\admin\model\design\menu.php on line 252
+2014-05-13 12:40:05 - PHP Notice:  Undefined offset: 1 in D:\xampp\sites\opencart.dev\admin\model\design\menu.php on line 268
+2014-05-13 12:40:40 - PHP Notice:  Undefined offset: 1 in D:\xampp\sites\opencart.dev\admin\model\design\menu.php on line 268
+2014-05-13 12:43:29 - PHP Notice:  Undefined index: method in D:\xampp\sites\opencart.dev\admin\controller\design\menu_ajax.php on line 9
+2014-05-13 12:44:06 - PHP Notice:  Undefined offset: 1 in D:\xampp\sites\opencart.dev\admin\model\design\menu.php on line 270

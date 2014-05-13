@@ -1,6 +1,6 @@
 <?php
 // Error Reporting
-error_reporting(E_ALL);
+error_reporting(E_ALL ^ E_DEPRECATED);
 
 // Check Version
 if (version_compare(phpversion(), '5.1.0', '<') == true) {

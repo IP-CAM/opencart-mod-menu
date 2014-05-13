@@ -264,6 +264,8 @@ class ModelDesignMenu extends Model {
 		foreach ($titles as $title)
 		{
 			$lang_val = explode('=', $title);
+			// var_dump($lang_val);
+			// var_dump($title);
 			$lang = str_replace('language_', '', $lang_val[0]);
 			$val = $lang_val[1];
 

@@ -1,0 +1,10 @@
+# Files
+.DS_Store
+Thumbs.db
+
+# Cache
+/vqmod/vqcache/
+/vqmod/logs/
+/system/cache/
+/system/logs/
+/image/cache/
