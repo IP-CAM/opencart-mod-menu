@@ -1648,51 +1648,29 @@ ul.box-filter > li ul {
 
 /****** MENU ******/
 /* common */
-/* CLEARFIX */
-.menu ul:before,
-.menu ul:after,
-.menu li:before,
-.menu li:after,
-.clearfix:before,
-.clearfix:after {
-	content: " ";
-	display: table;
-}
-.menu ul:after,
-.menu li:after,
-.clearfix:after {clear: both}
-.menu ul,
-.menu li,
-.clearfix {*zoom: 1}
 
 .menu div {}
 .menu {
-    border-bottom: 1px solid #000000;
-    box-shadow: 2px 1px 5px #000;
-    background: #585858;  
+    background: #1580b5;  
     border-radius: 5px;
     position: relative;
     width: 100%;  
-    float: left;
 }
 .menu h2 {
-    text-shadow: 2px 1px 5px #000;  
     border-bottom: 2px solid #ddd;
     /* display: block; */
     text-align: center;
-    margin: 15px 30px;
-    margin-top: 15px;
     color: #fff;
 }
 .menu ul {
-	list-style-type: none;
-	padding: 0px 5px;
+	padding: 0;
 	display: block;
+	list-style-type: none;
 }
 .menu li {
 }
 .menu a {
-	float: left;  width: 100%;
+	/*float: left;  */
 	text-decoration: none;
 	display: block;
 	color: #fff;
@@ -1704,254 +1682,315 @@ ul.box-filter > li ul {
 .menu img {
 	border: none;
 }
+
+.menu-wrap {
+	position: relative;
+	z-index: 4;
+}
 /* 1 level */
-.menu > ul {
-    margin: 0px 0px 0px 0px;
+.all-menu {
+    margin: 0;
     position: relative;
-    padding: 0px 15px;
+    padding: 10px 15px;
     float: left;
     width: 100%;
 }
-.menu > ul > li {
-    padding: 0 5px 5px;
-    line-height: 28px;
+.all-menu > li {
+    padding: 8px 5px;
     float: left;
 }
-.menu > ul > li.heading {
-    font-weight: 700;
+.all-menu > li {
+    font-weight: 400;
 }
-.menu > ul > li.heading > span {
-    text-shadow: 2px 1px 5px #000;
+.all-menu > li.heading > span {
     color: #fff;      
 }
-.menu > ul > li.link {}
-.menu > ul > li.banner {}
-.menu > ul > li.banner > a {}
-.menu > ul > li.banner > a > span {}
-.menu > ul > li.active {}
-.menu > ul > li.active > a {}
-.menu > ul > li.active > a > span {}
-.menu > ul > li.active > div {}
-.menu > ul > li:hover {}
-.menu > ul > li:hover > div {
-	display: block;
+.all-menu > li.link {}
+.all-menu > li.banner {}
+.all-menu > li.banner > a {}
+.all-menu > li.banner > a > span {}
+.all-menu > li.active {}
+.all-menu > li.active > a {}
+.all-menu > li.active > a > span {}
+.all-menu > li.active > div {}
+.all-menu > li:hover {}
+.all-menu > li:hover > div {
+	display: block;;
 }
-.menu > ul > li:hover > a {
-    background: url('../image/menu-bg.png');
+.all-menu > li:hover > a {
+    /*background: url('../image/menu-bg.png');*/
     border-radius: 5px;
 }
-.menu > ul > li > a {
+.all-menu > li > a {
     padding: 0 5px;
 }
-.menu > ul > li.icon > a > img {
+.all-menu > li.icon > a > img {
     margin: 6px 2px;
     height: 16px;
     width: 16px;
 }
-.menu > ul > li > div {
-	background: url('../image/menu-bg.png');
-	box-shadow: 0px 0px 50px 1px #000 inset;
+
+.all-menu > li + li:before {
+	content: '';
+	width: 1px;
+	height: 12px;
+	background: #ffffff;
+	display: block;
+	margin-left: -6px;
+	margin-top: 8px;
+	float: left;
+
+}
+
+.menu-container {
+	/*background: url('../image/menu-bg.png');*/
+	background: rgba(255,255,255,0.9);
 	border-radius: 0px 0px 5px 5px;
-	padding-bottom: 3px;
-	position: absolute;
-	min-width: 130px;
-	padding-top: 3px;
 	display: none;
-	right: 5px;
-	top: 33px;
-	left: 0px;
-	left: 5px;
+	-webkit-box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.32);
+	-moz-box-shadow:    0px 2px 3px 0px rgba(50, 50, 50, 0.32);
+	box-shadow:         0px 2px 3px 0px rgba(50, 50, 50, 0.32);
+	z-index:         -1;
+	top:         100%;
+	border-top:         none;
+	border:         1px solid #d2d2d2;
+	padding-top:         3px;
+	position:         absolute;
+	padding:         24px 24px 20px 22px;
+}
+
+.menu-container:after {
+	content: '';
+	display: block;
+	background: #0a6592;
+	height: 8px;
+	position: absolute;
+	top: -4px;
+	left: 0;
+	z-index: -1;
+	right: 0;
+	width: 100%;
 }
 /* 2 level */
-.menu > ul > li > div > ul {
+.menu-container > ul {
 }
-.menu > ul > li > div > ul > li {
-    line-height: 22px;
-    padding: 2px 0;
+.menu-container > ul > li {
+    padding: 0 5px;
+    display: block;
     float: left;
 }
-.menu > ul > li > div > ul > li.heading > span {
+
+.all-menu > li:hover > a, .all-menu > li:hover > span {
+	background: #0a6592;
+}
+.all-menu > li > a, .all-menu > li > span {
+	padding: 8px 10px;
+	display: block;
+	text-transform: uppercase;
+	font-size: 12px;
+	border-radius: 5px;
+	line-height: 1em;
+}
+
+.menu-container > ul > li.heading > span {
     /* display: none; */
-    padding-left: 5px;
 }
-.menu > ul > li > div > ul > li.heading {
-    text-shadow: 2px 1px 5px #000;  
-    padding-right: 4px;
-    padding-left: 4px;
-    min-width: 120px;
+.menu-container > ul > li.heading {
     cursor: default;
-    color: #fff;  
 }
-.menu > ul > li > div > ul > li.link {}
-.menu > ul > li > div > ul > li.banner {
+.menu-container > ul > li.link {}
+.menu-container > ul > li.banner {
     margin: 0 4px;
     padding: 4px;
 }
-.menu > ul > li > div > ul > li.banner:hover {
-	background: url('../image/menu-bg.png');
+.menu-container > ul > li.banner:hover {
 	border-radius: 5px;
 }
-.menu > ul > li > div > ul > li.banner.icon > a {
+.menu-container > ul > li.banner.icon > a {
 	border-radius: 0;
 }
-.menu > ul > li > div > ul > li.banner > a {
+.menu-container > ul > li.banner > a {
     position: relative;
     border-radius: 5px;
     overflow: hidden;
     padding: 0;
 }
-.menu > ul > li > div > ul > li.banner > a > img {
-    width: 120px;
+.menu-container > ul > li.banner > a > img {
+    width: 100%;
     height: auto;
     padding: 0;
     margin: 0;
 }
-.menu > ul > li > div > ul > li.banner > a > span {
-    display: none;
+
+.menu-product-img {
+	width: 140px;
+	height: 140px;
+	border: 1px solid #eaeaea;
+	position: relative;
+	overflow: hidden;
+	float: left;
+	padding: 10px;
+	background: #ffffff;
+	-webkit-transition: padding 0.3s ease;
+    -moz-transition: padding 0.3s ease;
+    -o-transition: padding 0.3s ease;
+	transition: padding 0.3s ease;
 }
-.menu > ul > li > div > ul > li.banner.icon > a > span {
-    display: block;
+
+.menu-product-img:hover {
+	padding: 15px;
 }
-.menu > ul > li > div > ul > li.active {}
-.menu > ul > li > div > ul > li.active > a {}
-.menu > ul > li > div > ul > li.active > div {}
-.menu > ul > li > div > ul > li:hover {}
-.menu > ul > li > div > ul > li:hover > div {
+
+.menu-product-img img {
+	width: 100%;
+	min-height: 100%;
 }
-.menu > ul > li > div > ul > li:hover > a {
-    background: url('../image/menu-bg.png');
-    border-radius: 5px;
+
+.menu .product .name {
+	font-size: 12px;
+	color: #44b0e6;
+	text-transform: uppercase;
+	text-align: left;
+	display: block;
+	-webkit-transition: color 0.3s ease;
+    -moz-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
+	transition: color 0.3s ease;
 }
-.menu > ul > li > div > ul > li > a {
-    padding: 0 5px;      
+
+.menu .product .name:hover {
+	color: #125373;
 }
-.menu > ul > li > div > ul > li.banner.icon > a > img {
-    margin: 2px 3px 0px 3px;
-    height: 16px;
-    width: 16px;  
+
+.menu .product .price {
+	font-size: 16px;
+	font-weight: 700;
+	color: #292432;
 }
-.menu > ul > li > div > ul > li > div {
-    /* padding-left: 5px; */
-    overflow: hidden;
-    width: 100%;
+
+.menu .product .btn {
+	display: inline-block;
+	padding: 6px 10px;
+	border-radius: 5px;
+	float: left;
+	line-height: 1em;
+	-webkit-transition: background-color 0.3s ease, color 0.3s ease;
+    -moz-transition: background-color 0.3s ease, color 0.3s ease;
+    -o-transition: background-color 0.3s ease, color 0.3s ease;
+	transition: background-color 0.3s ease, color 0.3s ease;
 }
-.menu > ul > li > div > ul > li.banner.icon > a > span {}
-/* 3 level */
-.menu > ul > li > div > ul > li > div > ul {
-    padding: 0;
+
+.menu .product .btn-buy {
+	border: 1px solid #0b9cdc;
+	color: #fff;
+	background: #15a7e8;
+	clear: both;
+	margin: 0 5px 0 0;
 }
-.menu > ul > li > div > ul > li > div > ul > li {
-    margin: 0px 0px;
+
+.menu .product .btn-buy:hover {
+	color: #15a7e8;
+	background: #fff;
 }
-.menu > ul > li > div > ul > li > div > ul > li.heading {
-    padding-left: 5px;
+
+.menu .product .btn-view {
+	border: 1px solid #d4d4d4;
+	background: #ffffff;
+	color: #a4a4a4;
 }
-.menu > ul > li > div > ul > li > div > ul > li.heading:hover {
-	border-radius: 0px;
-    background: none;
+
+.menu .product .btn-view:hover {
+	background: #a4a4a4;
+	color: #fff;
 }
-.menu > ul > li > div > ul > li > div > ul > li.heading > span {
-    font-weight: 700;
+
+.menu-container > ul > .heading > div > ul > .heading > span {
+	color: #7d7d7d;
+	font-size: 12px;
 }
-.menu > ul > li > div > ul > li > div > ul > li.link {
-    padding: 4px 0px;
+
+/* For menu headings */
+.menu-container > ul > .heading:not(.has-children-0) > span {
+	color: #292432;
+	text-transform: uppercase;
+	font-size: 13px;
+	margin: 0 0 10px;
+	display: block;
 }
-.menu > ul > li > div > ul > li > div > ul > li.banner {
-    padding: 4px;
+
+.menu-container .heading .link a {
+	color: #15a7e8;
+	padding: 0 0 0 10px;
+	-webkit-transition: color 0.3s ease;
+    -moz-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
+	transition: color 0.3s ease;
 }
-.menu > ul > li > div > ul > li > div > ul > li.banner:hover {}
-.menu > ul > li > div > ul > li > div > ul > li.banner:hover > a {}
-.menu > ul > li > div > ul > li > div > ul > li.banner > a {
-    border-radius: 5px;
-    overflow: hidden;
-    padding: 0;
+
+.menu-container .heading .link:before {
+	content:'-';
+	display: block;
+	float: left;
+	color: #15a7e8;
+	margin: 0 5px 0 0;
+	line-height: 1em;
+	-webkit-transition: color 0.3s ease;
+    -moz-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
+	transition: color 0.3s ease;
 }
-.menu > ul > li > div > ul > li > div > ul > li.banner > a > img {
-    width: 120px;
-    padding: 0px;
-    margin: 0px;
+
+.menu-container .heading .link:hover a {
+	color: #02699d;
 }
-.menu > ul > li > div > ul > li > div > ul > li.banner a > span {
-    display: none;
+
+.menu-container .heading .link:hover:before {
+	color: #02699d;
 }
-.menu > ul > li > div > ul > li > div > ul > li.banner.icon a > span {
-    display: block;
+
+
+/* LAYOUT MODEL */
+
+.layout-1 .menu-container > ul > li {
+	width: 200px;
 }
-.menu > ul > li > div > ul > li > div > ul > li.active {}
-.menu > ul > li > div > ul > li > div > ul > li.active > a {}
-.menu > ul > li > div > ul > li > div > ul > li.active > div {}
-.menu > ul > li > div > ul > li > div > ul > li:hover {
-    background: url('../image/menu-bg.png');      
-    border-radius: 5px;
+
+.layout-1 .menu-container > ul > li.banner {
+	width: 250px;
 }
-.menu > ul > li > div > ul > li > div > ul > li:hover > div {}
-.menu > ul > li > div > ul > li > div > ul > li:hover > a {
-    /* background: url('../image/menu-bg.png'); */
-    /* text-decoration: underline; */
-    /* border-bottom: 1px solid #fff; */
+
+.layout-1 .menu-container > ul > .product {
+	width: 325px;
+	border-top: 1px solid #eaeaea;
 }
-.menu > ul > li > div > ul > li > div > ul > li > a {
-    padding: 0 5px;
-    /* border-bottom: 1px solid transparent; */
+
+.layout-1 .menu-container .product {
+	clear: left;
+	height: 157px;
+	position: relative;
+	padding: 15px 10px 0 145px;
+	margin: 15px 0 0;;
 }
-.menu > ul > li > div > ul > li > div > ul > li.banner.icon > a > img {
-    margin: 2px 3px 0px 3px;
-    width: 16px;  
-    height: 16px;
+
+.layout-1 .menu-container .product .menu-product-img {
+	position: absolute;
+	top: 15px;
+	left: 0;
 }
-.menu > ul > li > div > ul > li > div > ul > li > div {}
-/* 4 level */
-.menu > ul > li > div > ul > li > div > ul > li > div > ul {}
-.menu > ul > li > div > ul > li > div > ul > li > div > ul > li {
-    background: url(../image/list-item.png) no-repeat 0px 10px;
-    -webkit-transition: opacity 0.5s;  
-       -moz-transition: opacity 0.5s;  
-    	 -o-transition: opacity 0.5s;  
-    		transition: opacity 0.5s;
-    padding-left: 10px;
-    line-height: 20px;  
-    opacity: 0.7;  
+
+.layout-1 .menu-container .product + .product {
+	clear: none;
 }
-.menu > ul > li > div > ul > li > div > ul > li > div > ul > li.heading {
-    font-weight: 700;
-    font-size: 12px;
-    opacity: 1;
+
+.layout-1 .product .price, .layout-1 .product .btn {
+	float: left;
 }
-.menu > ul > li > div > ul > li > div > ul > li > div > ul > li.heading > span {
-    font-weight: 700;
-}
-.menu > ul > li > div > ul > li > div > ul > li > div > ul > li.link {}
-.menu > ul > li > div > ul > li > div > ul > li > div > ul > li.banner {
-    padding: 3px 0px 4px 10px;
-}
-.menu > ul > li > div > ul > li > div > ul > li > div > ul > li.banner:hover {}
-.menu > ul > li > div > ul > li > div > ul > li > div > ul > li.banner:hover > a {}
-.menu > ul > li > div > ul > li > div > ul > li > div > ul > li.banner > a {
-    border-radius: 5px;
-    overflow: hidden;
-}
-.menu > ul > li > div > ul > li > div > ul > li > div > ul > li.banner > a > img {
-    width: 108px;
-}
-.menu > ul > li > div > ul > li > div > ul > li > div > ul > li.banner > a > span {
-    display: none;
-}
-.menu > ul > li > div > ul > li > div > ul > li > div > ul > li.banner.icon {}
-.menu > ul > li > div > ul > li > div > ul > li > div > ul > li.banner.icon > a {}
-.menu > ul > li > div > ul > li > div > ul > li > div > ul > li.banner.icon > a > img {
-	margin: 2px 3px 0px 0px;
-    height: 16px;
-    width: 16px;  
-}
-.menu > ul > li > div > ul > li > div > ul > li > div > ul > li.banner.icon > a > span {}
-.menu > ul > li > div > ul > li > div > ul > li > div > ul > li.active {}
-.menu > ul > li > div > ul > li > div > ul > li > div > ul > li.active > a {}
-.menu > ul > li > div > ul > li > div > ul > li > div > ul > li.active > div {}
-.menu > ul > li > div > ul > li > div > ul > li > div > ul > li:hover {
-    opacity: 1;
-}
-.menu > ul > li > div > ul > li > div > ul > li > div > ul > li:hover > div {}
-.menu > ul > li > div > ul > li > div > ul > li > div > ul > li:hover > a {}
-.menu > ul > li > div > ul > li > div > ul > li > div > ul > li > a {}
-.menu > ul > li > div > ul > li > div > ul > li > div > ul > li > a > img {}
-.menu > ul > li > div > ul > li > div > ul > li > div > ul > li > div {}
+
+.layout-1 .product .name {
+	border-bottom: 1px solid #eaeaea;
+	padding: 10px 0 10px;
+	margin: 0 0 5px;;}
+.layout-1 .product .price {
+	margin: 0 0 5px;}
+.layout-1 .product .btn-view {}
+.layout-1 .product .btn-buy {}

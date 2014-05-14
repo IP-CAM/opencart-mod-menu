@@ -14,9 +14,10 @@
 }
 
 #dl-menu button.dl-trigger{
-	width: 100%;
-	background: url('../image/menu-bg.png');
-	box-shadow: 0px 0px 10px 1px #000 inset;
+	width: auto;
+	background: #1580b5 !important;
+	/*background: url('../image/menu-bg.png');*/
+	box-shadow: 0px 0px 10px 1px rgba(82, 75, 243, 0.2) inset;
 	opacity: 0.7;
 }
 
@@ -35,8 +36,9 @@
 /* 1 level */
 .menu > ul.dl-animate-out-1 {}
 #dl-menu > ul {
-	background: url('../image/menu-bg.png');
-	box-shadow: 0px 0px 50px 1px #000 inset;
+	background: #1580b5 !important;
+	/*background: url('../image/menu-bg.png');*/
+	/*box-shadow: 0px 0px 50px 1px #000 inset;*/
 }
 
 #dl-menu > ul > li {
@@ -44,16 +46,31 @@
 }
 
 #dl-menu > ul > li:hover {
-	background: url('../image/menu-bg.png');
+	background: #2580b5;
 }
 
 #dl-menu > ul > li.heading {
-	text-shadow: 2px 1px 5px #000;
+	/*text-shadow: 2px 1px 5px #000;*/
 	font-weight: 700;
 }
-#dl-menu > ul > li.heading > span {
+#dl-menu ul li.heading span {
+	display: block;
+	position: relative;
+	padding: 15px 20px;
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 300;
+	color: #fff;
+	outline: none;
 
 }
+
+#dl-menu ul li.heading:hover span {
+	background: rgba(255,248,213,0.1);
+	text-decoration: underline;
+	cursor: pointer;
+}
+
 #dl-menu > ul > li.link {}
 #dl-menu > ul > li.banner {}
 #dl-menu > ul > li.banner > a {}

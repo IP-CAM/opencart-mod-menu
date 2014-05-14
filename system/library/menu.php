@@ -77,7 +77,7 @@ class Menu {
     {
         $wrapper = (self::$responsive) ? self::$wrapper['template_wrapper_responsive'] : self::$wrapper['template_wrapper'];
         $html = self::buildMenu($result);
-        
+
         // Wrap result with template wrapper
         $result = str_replace('{{content}}', $html, $wrapper);
         
@@ -123,32 +123,78 @@ class Menu {
 
             if ($row['parent'] == $parent)
             {
-                // Append class depending on link view type
-                $row['self_class'] .= " " . $row['view_type'];
-
-                // If link name is empty (at the responsive menu) ---> continue
-                if (self::$responsive AND (! isset($row['name']) OR ! trim($row['name'])))
-                {
+                if(self::$responsive && ($row['view_type'] == 'product' || $row['view_type'] == 'banner')) {
                     continue;
                 }
+                
+                if($row['view_type'] == 'product') {
 
-                // Replacing template values
-                $r = str_replace('{{id}}', $row['id'], $structure);
-                $r = str_replace('{{num_children}}', $num_children, $r);
-                $r = str_replace('{{name}}', $row['name'], $r);
-                $r = str_replace('{{href}}', $row['href'], $r);
-                $r = str_replace('{{params}}', $row['params'], $r);
-                $r = str_replace('{{self_class}}', $row['self_class'], $r);
-                $r = str_replace('{{title}}', $row['title'], $r);
-                $r = str_replace('{{target}}', $row['target'] ? '_blank' : '_self', $r);
+                    $product_id = preg_replace("/.+product_id=(\d+)/","$1", $row['href']);
 
-                if ($row['image'])
-                {
-                    $r = str_replace('{{image}}', "<img style='float: left;' src='/image/" . $row['image'] . "'>", $r);
-                }
-                else
-                {
-                    $r = str_replace('{{image}}', "", $r);
+                    $product = self::getProduct($product_id);
+
+                    // Append class depending on link view type
+                    $row['self_class'] .= " " . $row['view_type'];
+
+                    // If link name is empty (at the responsive menu) ---> continue
+                    if (self::$responsive AND (! isset($row['name']) OR ! trim($row['name'])))
+                    {
+                        continue;
+                    }
+
+                    // Replacing template values
+                    $r = str_replace('{{id}}', $row['id'], $structure);
+                    $r = str_replace('{{num_children}}', $num_children, $r);
+                    $r = str_replace('{{name}}', $product['name'], $r);
+                    $r = str_replace('{{href}}', $row['href'], $r);
+                    $r = str_replace('{{params}}', $row['params'], $r);
+                    $r = str_replace('{{self_class}}', $row['self_class'], $r);
+                    $r = str_replace('{{title}}', $product['name'], $r);
+                    $r = str_replace('{{price}}', $product['price'], $r);
+                    $r = str_replace('{{add}}', 'Add to cart', $r);
+                    $r = str_replace('{{view}}', 'View', $r);
+                    $r = str_replace('{{target}}', $row['target'] ? '_blank' : '_self', $r);
+
+                    if ($product['image'])
+                    {
+                        $r = str_replace('{{image}}', "<img src='/image/" . $product['image'] . "'>", $r);
+                    }
+                    else
+                    {
+                        $r = str_replace('{{image}}', "", $r);
+                    }
+
+
+                } else {
+
+                    // Append class depending on link view type
+                    $row['self_class'] .= " " . $row['view_type'];
+
+                    // If link name is empty (at the responsive menu) ---> continue
+                    if (self::$responsive AND (! isset($row['name']) OR ! trim($row['name'])))
+                    {
+                        continue;
+                    }
+
+                    // Replacing template values
+                    $r = str_replace('{{id}}', $row['id'], $structure);
+                    $r = str_replace('{{num_children}}', $num_children, $r);
+                    $r = str_replace('{{name}}', $row['name'], $r);
+                    $r = str_replace('{{href}}', $row['href'], $r);
+                    $r = str_replace('{{params}}', $row['params'], $r);
+                    $r = str_replace('{{self_class}}', $row['self_class'], $r);
+                    $r = str_replace('{{title}}', $row['title'], $r);
+                    $r = str_replace('{{target}}', $row['target'] ? '_blank' : '_self', $r);
+
+                    if ($row['image'])
+                    {
+                        $r = str_replace('{{image}}', "<img style='float: left;' src='/image/" . $row['image'] . "'>", $r);
+                    }
+                    else
+                    {
+                        $r = str_replace('{{image}}', "", $r);
+                    }
+
                 }
 
                 // Get active href + params
@@ -189,7 +235,12 @@ class Menu {
                     else
                     {
                         // Responsive view
-                        $result .= "<div><ul>";
+                        if($row['parent'] == 0) {
+                            $result .= "<div class='menu-container'><ul>";
+                        } else {
+                            $result .= "<div><ul>";
+                        }
+
                         $result .= self::buildMenu($rows, $row['id']);
                         $result .= "</ul></div>";
                     }
@@ -268,12 +319,12 @@ class Menu {
      */
     static private function getTemplates()
     {
-        $template_field_name = '`heading_template`, `link_template`, `banner_template`';
+        $template_field_name = '`heading_template`, `link_template`, `banner_template`, `product_template`';
 
         // Check if user want to generate responsive menu structure
         if (self::$responsive)
         {
-            $template_field_name = '`heading_template_responsive`, `link_template_responsive`, `banner_template_responsive`';
+            $template_field_name = '`heading_template_responsive`, `link_template_responsive`, `banner_template_responsive`, `product_template_responsive`';
         }
 
         return self::query("SELECT " . $template_field_name . " FROM `menu` WHERE `code` = '" . self::$code . "'")->row;
@@ -339,6 +390,15 @@ class Menu {
 
             exit();
         }
+    }
+
+    /*
+     * Get product name, price, image
+     */
+    static private function getProduct($product_id){
+        $query = self::query("SELECT p.price, p.image, pd.name FROM product AS p INNER JOIN product_description AS pd ON pd.product_id = " . $product_id . " WHERE p.product_id = " . $product_id);
+
+        return $query->row;
     }
     
 }

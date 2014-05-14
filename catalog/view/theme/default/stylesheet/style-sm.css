@@ -14,9 +14,10 @@
 }
 
 #dl-menu button.dl-trigger{
-	width: 100%;
-	background: url('../image/menu-bg.png');
-	box-shadow: 0px 0px 10px 1px #000 inset;
+	width: auto;
+	background: #1580b5 !important;
+	/*background: url('../image/menu-bg.png');*/
+	box-shadow: 0px 0px 10px 1px rgba(82, 75, 243, 0.2) inset;
 	opacity: 0.7;
 }
 
@@ -35,9 +36,10 @@
 .menu img {}
 /* 1 level */
 .menu > ul.dl-animate-out-1 {}
-#dl-menu > ul {
-	background: url('../image/menu-bg.png');
-	box-shadow: 0px 0px 50px 1px #000 inset;
+#dl-menu .dl-menu {
+	background: #1580b5 !important;
+	/*background: url('../image/menu-bg.png');*/
+	/*box-shadow: 0px 0px 50px 1px #000 inset;*/
 }
 
 #dl-menu > ul > li {
@@ -45,7 +47,8 @@
 }
 
 #dl-menu > ul > li:hover {
-	background: url('../image/menu-bg.png');
+	background: #2580b5;
+	/*opacity: 0.7;*/
 }
 
 #dl-menu > ul > li.heading {

@@ -2,8 +2,8 @@
 
 class MenuHelper
 {
-	static private $template_wrapper = "<ul>{{content}}</ul>";
-	static private $template_wrapper_responsive = "<ul class='responsive'>{{content}}</ul>";
+	static private $template_wrapper = "<ul class='all-menu'>{{content}}</ul>";
+	static private $template_wrapper_responsive = "<ul class='responsive dl-menu'>{{content}}</ul>";
 
 	static private $heading_template = "<li class='{{self_class}}'>{{name}}</li>";
 	static private $link_template = "<li class='{{self_class}}'><a href='{{name}}'>{{name}}</a></li>";

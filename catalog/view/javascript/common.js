@@ -87,7 +87,23 @@ $(document).ready(function() {
 		$(this).parent().fadeOut('slow', function() {
 			$(this).remove();
 		});
-	});	
+	});
+
+	var $menu = $('.menu-wrap');
+
+	$menu.find('.visible-md .all-menu > li').each(function(){
+
+		var $products = $(this).find('.menu-container > ul > .product');
+		console.log($products);
+		$(this).find('.menu-container > ul > .product').remove();
+		$(this).find('.menu-container > ul').append($products);
+
+		$products = null;
+
+	});
+	$menu = null;
+
+
 });
 
 function getURLVar(key) {

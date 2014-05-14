@@ -13,3 +13,91 @@
 2014-05-13 12:40:40 - PHP Notice:  Undefined offset: 1 in D:\xampp\sites\opencart.dev\admin\model\design\menu.php on line 268
 2014-05-13 12:43:29 - PHP Notice:  Undefined index: method in D:\xampp\sites\opencart.dev\admin\controller\design\menu_ajax.php on line 9
 2014-05-13 12:44:06 - PHP Notice:  Undefined offset: 1 in D:\xampp\sites\opencart.dev\admin\model\design\menu.php on line 270
+2014-05-14 10:01:05 - PHP Notice:  Undefined index: product_template in D:\xampp\sites\opencart.dev\system\library\menu.php on line 105
+2014-05-14 10:01:05 - PHP Notice:  Undefined index: product_template in D:\xampp\sites\opencart.dev\system\library\menu.php on line 105
+2014-05-14 10:01:05 - PHP Notice:  Undefined index: product_template in D:\xampp\sites\opencart.dev\system\library\menu.php on line 105
+2014-05-14 10:01:05 - PHP Notice:  Undefined index: product_template in D:\xampp\sites\opencart.dev\system\library\menu.php on line 105
+2014-05-14 10:01:05 - PHP Notice:  Undefined index: product_template in D:\xampp\sites\opencart.dev\system\library\menu.php on line 105
+2014-05-14 10:01:05 - PHP Notice:  Undefined index: product_template in D:\xampp\sites\opencart.dev\system\library\menu.php on line 105
+2014-05-14 10:01:05 - PHP Notice:  Undefined index: product_template in D:\xampp\sites\opencart.dev\system\library\menu.php on line 105
+2014-05-14 10:01:05 - PHP Notice:  Undefined index: product_template in D:\xampp\sites\opencart.dev\system\library\menu.php on line 105
+2014-05-14 10:01:05 - PHP Notice:  Undefined index: product_template in D:\xampp\sites\opencart.dev\system\library\menu.php on line 105
+2014-05-14 10:01:05 - PHP Notice:  Undefined index: product_template in D:\xampp\sites\opencart.dev\system\library\menu.php on line 105
+2014-05-14 10:01:05 - PHP Notice:  Undefined index: product_template in D:\xampp\sites\opencart.dev\system\library\menu.php on line 105
+2014-05-14 10:01:05 - PHP Notice:  Undefined index: product_template in D:\xampp\sites\opencart.dev\system\library\menu.php on line 105
+2014-05-14 10:01:05 - PHP Notice:  Undefined index: product_template in D:\xampp\sites\opencart.dev\system\library\menu.php on line 105
+2014-05-14 10:01:05 - PHP Notice:  Undefined index: product_template in D:\xampp\sites\opencart.dev\system\library\menu.php on line 105
+2014-05-14 10:01:05 - PHP Notice:  Undefined index: product_template in D:\xampp\sites\opencart.dev\system\library\menu.php on line 105
+2014-05-14 10:01:05 - PHP Notice:  Undefined index: product_template in D:\xampp\sites\opencart.dev\system\library\menu.php on line 105
+2014-05-14 10:01:05 - PHP Notice:  Undefined index: product_template in D:\xampp\sites\opencart.dev\system\library\menu.php on line 105
+2014-05-14 10:01:05 - PHP Notice:  Undefined index: product_template in D:\xampp\sites\opencart.dev\system\library\menu.php on line 105
+2014-05-14 10:01:05 - PHP Notice:  Undefined index: product_template in D:\xampp\sites\opencart.dev\system\library\menu.php on line 105
+2014-05-14 10:01:05 - PHP Notice:  Undefined index: product_template in D:\xampp\sites\opencart.dev\system\library\menu.php on line 105
+2014-05-14 10:01:05 - PHP Notice:  Undefined index: product_template in D:\xampp\sites\opencart.dev\system\library\menu.php on line 105
+2014-05-14 10:01:05 - PHP Notice:  Undefined index: product_template in D:\xampp\sites\opencart.dev\system\library\menu.php on line 105
+2014-05-14 10:01:05 - PHP Notice:  Undefined index: product_template_responsive in D:\xampp\sites\opencart.dev\system\library\menu.php on line 101
+2014-05-14 10:01:05 - PHP Notice:  Undefined index: product_template_responsive in D:\xampp\sites\opencart.dev\system\library\menu.php on line 101
+2014-05-14 10:01:05 - PHP Notice:  Undefined index: product_template_responsive in D:\xampp\sites\opencart.dev\system\library\menu.php on line 101
+2014-05-14 10:01:05 - PHP Notice:  Undefined index: product_template_responsive in D:\xampp\sites\opencart.dev\system\library\menu.php on line 101
+2014-05-14 10:01:05 - PHP Notice:  Undefined index: product_template_responsive in D:\xampp\sites\opencart.dev\system\library\menu.php on line 101
+2014-05-14 10:01:05 - PHP Notice:  Undefined index: product_template_responsive in D:\xampp\sites\opencart.dev\system\library\menu.php on line 101
+2014-05-14 10:01:05 - PHP Notice:  Undefined index: product_template_responsive in D:\xampp\sites\opencart.dev\system\library\menu.php on line 101
+2014-05-14 10:01:05 - PHP Notice:  Undefined index: product_template_responsive in D:\xampp\sites\opencart.dev\system\library\menu.php on line 101
+2014-05-14 10:01:05 - PHP Notice:  Undefined index: product_template_responsive in D:\xampp\sites\opencart.dev\system\library\menu.php on line 101
+2014-05-14 10:01:05 - PHP Notice:  Undefined index: product_template_responsive in D:\xampp\sites\opencart.dev\system\library\menu.php on line 101
+2014-05-14 10:01:05 - PHP Notice:  Undefined index: product_template_responsive in D:\xampp\sites\opencart.dev\system\library\menu.php on line 101
+2014-05-14 10:01:05 - PHP Notice:  Undefined index: product_template_responsive in D:\xampp\sites\opencart.dev\system\library\menu.php on line 101
+2014-05-14 10:01:05 - PHP Notice:  Undefined index: product_template_responsive in D:\xampp\sites\opencart.dev\system\library\menu.php on line 101
+2014-05-14 10:01:05 - PHP Notice:  Undefined index: product_template_responsive in D:\xampp\sites\opencart.dev\system\library\menu.php on line 101
+2014-05-14 10:01:05 - PHP Notice:  Undefined index: product_template_responsive in D:\xampp\sites\opencart.dev\system\library\menu.php on line 101
+2014-05-14 10:01:05 - PHP Notice:  Undefined index: product_template_responsive in D:\xampp\sites\opencart.dev\system\library\menu.php on line 101
+2014-05-14 10:01:05 - PHP Notice:  Undefined index: product_template_responsive in D:\xampp\sites\opencart.dev\system\library\menu.php on line 101
+2014-05-14 10:01:05 - PHP Notice:  Undefined index: product_template_responsive in D:\xampp\sites\opencart.dev\system\library\menu.php on line 101
+2014-05-14 10:01:06 - PHP Notice:  Undefined index: product_template_responsive in D:\xampp\sites\opencart.dev\system\library\menu.php on line 101
+2014-05-14 10:01:06 - PHP Notice:  Undefined index: product_template_responsive in D:\xampp\sites\opencart.dev\system\library\menu.php on line 101
+2014-05-14 10:01:06 - PHP Notice:  Undefined index: product_template_responsive in D:\xampp\sites\opencart.dev\system\library\menu.php on line 101
+2014-05-14 10:01:06 - PHP Notice:  Undefined index: product_template_responsive in D:\xampp\sites\opencart.dev\system\library\menu.php on line 101
+2014-05-14 10:01:28 - PHP Notice:  Undefined index: product_template in D:\xampp\sites\opencart.dev\system\library\menu.php on line 105
+2014-05-14 10:01:28 - PHP Notice:  Undefined index: product_template in D:\xampp\sites\opencart.dev\system\library\menu.php on line 105
+2014-05-14 10:01:28 - PHP Notice:  Undefined index: product_template in D:\xampp\sites\opencart.dev\system\library\menu.php on line 105
+2014-05-14 10:01:28 - PHP Notice:  Undefined index: product_template in D:\xampp\sites\opencart.dev\system\library\menu.php on line 105
+2014-05-14 10:01:28 - PHP Notice:  Undefined index: product_template in D:\xampp\sites\opencart.dev\system\library\menu.php on line 105
+2014-05-14 10:01:28 - PHP Notice:  Undefined index: product_template in D:\xampp\sites\opencart.dev\system\library\menu.php on line 105
+2014-05-14 10:01:28 - PHP Notice:  Undefined index: product_template in D:\xampp\sites\opencart.dev\system\library\menu.php on line 105
+2014-05-14 10:01:28 - PHP Notice:  Undefined index: product_template in D:\xampp\sites\opencart.dev\system\library\menu.php on line 105
+2014-05-14 10:01:28 - PHP Notice:  Undefined index: product_template in D:\xampp\sites\opencart.dev\system\library\menu.php on line 105
+2014-05-14 10:01:28 - PHP Notice:  Undefined index: product_template in D:\xampp\sites\opencart.dev\system\library\menu.php on line 105
+2014-05-14 10:01:28 - PHP Notice:  Undefined index: product_template in D:\xampp\sites\opencart.dev\system\library\menu.php on line 105
+2014-05-14 10:01:28 - PHP Notice:  Undefined index: product_template_responsive in D:\xampp\sites\opencart.dev\system\library\menu.php on line 101
+2014-05-14 10:01:28 - PHP Notice:  Undefined index: product_template_responsive in D:\xampp\sites\opencart.dev\system\library\menu.php on line 101
+2014-05-14 10:01:28 - PHP Notice:  Undefined index: product_template_responsive in D:\xampp\sites\opencart.dev\system\library\menu.php on line 101
+2014-05-14 10:01:28 - PHP Notice:  Undefined index: product_template_responsive in D:\xampp\sites\opencart.dev\system\library\menu.php on line 101
+2014-05-14 10:01:28 - PHP Notice:  Undefined index: product_template_responsive in D:\xampp\sites\opencart.dev\system\library\menu.php on line 101
+2014-05-14 10:01:28 - PHP Notice:  Undefined index: product_template_responsive in D:\xampp\sites\opencart.dev\system\library\menu.php on line 101
+2014-05-14 10:01:28 - PHP Notice:  Undefined index: product_template_responsive in D:\xampp\sites\opencart.dev\system\library\menu.php on line 101
+2014-05-14 10:01:28 - PHP Notice:  Undefined index: product_template_responsive in D:\xampp\sites\opencart.dev\system\library\menu.php on line 101
+2014-05-14 10:01:28 - PHP Notice:  Undefined index: product_template_responsive in D:\xampp\sites\opencart.dev\system\library\menu.php on line 101
+2014-05-14 10:01:28 - PHP Notice:  Undefined index: product_template_responsive in D:\xampp\sites\opencart.dev\system\library\menu.php on line 101
+2014-05-14 10:01:28 - PHP Notice:  Undefined index: product_template_responsive in D:\xampp\sites\opencart.dev\system\library\menu.php on line 101
+2014-05-14 10:31:13 - PHP Unknown:  Function ereg_replace() is deprecated in D:\xampp\sites\opencart.dev\system\library\menu.php on line 128
+2014-05-14 10:31:13 - PHP Unknown:  Function ereg_replace() is deprecated in D:\xampp\sites\opencart.dev\system\library\menu.php on line 128
+2014-05-14 10:31:48 - PHP Unknown:  Function ereg_replace() is deprecated in D:\xampp\sites\opencart.dev\system\library\menu.php on line 128
+2014-05-14 10:31:49 - PHP Unknown:  Function ereg_replace() is deprecated in D:\xampp\sites\opencart.dev\system\library\menu.php on line 128
+2014-05-14 10:32:04 - PHP Unknown:  Function ereg_replace() is deprecated in D:\xampp\sites\opencart.dev\system\library\menu.php on line 128
+2014-05-14 10:32:04 - PHP Unknown:  Function ereg_replace() is deprecated in D:\xampp\sites\opencart.dev\system\library\menu.php on line 128
+2014-05-14 10:32:16 - PHP Unknown:  Function ereg_replace() is deprecated in D:\xampp\sites\opencart.dev\system\library\menu.php on line 128
+2014-05-14 10:32:16 - PHP Warning:  ereg_replace(): REG_BADRPT in D:\xampp\sites\opencart.dev\system\library\menu.php on line 128
+2014-05-14 10:32:16 - PHP Unknown:  Function ereg_replace() is deprecated in D:\xampp\sites\opencart.dev\system\library\menu.php on line 128
+2014-05-14 10:32:16 - PHP Warning:  ereg_replace(): REG_BADRPT in D:\xampp\sites\opencart.dev\system\library\menu.php on line 128
+2014-05-14 10:38:07 - PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in D:\xampp\sites\opencart.dev\system\library\menu.php on line 128
+2014-05-14 10:38:07 - PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in D:\xampp\sites\opencart.dev\system\library\menu.php on line 128
+2014-05-14 10:44:00 - PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in D:\xampp\sites\opencart.dev\system\library\menu.php on line 128
+2014-05-14 10:44:00 - PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in D:\xampp\sites\opencart.dev\system\library\menu.php on line 128
+2014-05-14 10:44:44 - PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in D:\xampp\sites\opencart.dev\system\library\menu.php on line 128
+2014-05-14 10:44:45 - PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in D:\xampp\sites\opencart.dev\system\library\menu.php on line 128
+2014-05-14 10:45:00 - PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in D:\xampp\sites\opencart.dev\system\library\menu.php on line 128
+2014-05-14 10:45:00 - PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in D:\xampp\sites\opencart.dev\system\library\menu.php on line 128
+2014-05-14 10:45:14 - PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in D:\xampp\sites\opencart.dev\system\library\menu.php on line 128
+2014-05-14 10:45:14 - PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in D:\xampp\sites\opencart.dev\system\library\menu.php on line 128
+2014-05-14 12:38:09 - PHP Notice:  A non well formed numeric value encountered in D:\xampp\sites\opencart.dev\system\library\image.php on line 96
+2014-05-14 12:38:09 - PHP Notice:  A non well formed numeric value encountered in D:\xampp\sites\opencart.dev\system\library\image.php on line 107
