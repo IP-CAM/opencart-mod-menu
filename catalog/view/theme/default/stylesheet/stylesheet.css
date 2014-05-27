@@ -1697,7 +1697,7 @@ ul.box-filter > li ul {
 }
 .all-menu > li {
     padding: 8px 5px;
-    float: left;
+    float: left;;
 }
 .all-menu > li {
     font-weight: 400;
@@ -1715,7 +1715,10 @@ ul.box-filter > li ul {
 .all-menu > li.active > div {}
 .all-menu > li:hover {}
 .all-menu > li:hover > div {
-	display: block;;
+	display: block;
+	visibility: visible;
+	height: auto;
+
 }
 .all-menu > li:hover > a {
     /*background: url('../image/menu-bg.png');*/
@@ -1746,7 +1749,9 @@ ul.box-filter > li ul {
 	/*background: url('../image/menu-bg.png');*/
 	background: rgba(255,255,255,0.9);
 	border-radius: 0px 0px 5px 5px;
-	display: none;
+	display: block;
+	/*height: 0;*/
+	visibility: hidden;
 	-webkit-box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.32);
 	-moz-box-shadow:    0px 2px 3px 0px rgba(50, 50, 50, 0.32);
 	box-shadow:         0px 2px 3px 0px rgba(50, 50, 50, 0.32);
@@ -1757,6 +1762,10 @@ ul.box-filter > li ul {
 	padding-top:         3px;
 	position:         absolute;
 	padding:         24px 24px 20px 22px;
+	-webkit-transition: visibility 0.1s ease 0.1s, height 0.1s ease 0.1s;
+    -moz-transition: visibility 0.1s ease 0.1s, height 0.1s ease 0.1s;
+    -o-transition: visibility 0.1s ease 0.1s, height 0.1s ease 0.1s;
+	transition: visibility 0.1s ease 0.1s, height 0.1s ease 0.1s;
 }
 
 .menu-container:after {
@@ -1770,6 +1779,25 @@ ul.box-filter > li ul {
 	z-index: -1;
 	right: 0;
 	width: 100%;
+}
+
+.all-menu > li:after {
+	content: '';
+	display: block;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 6px 6px 6px;
+	border-color: transparent transparent #0a6592 transparent;
+	position: absolute;
+	bottom: 0px;
+	z-index: 2;
+	margin: 0 0 0 20px;
+}
+
+.all-menu > li:hover:after {
+	visibility: visible;
 }
 /* 2 level */
 .menu-container > ul {
@@ -1957,6 +1985,8 @@ ul.box-filter > li ul {
 
 .layout-1 .menu-container > ul > li.banner {
 	width: 250px;
+	height: 250px;
+	overflow: hidden;
 }
 
 .layout-1 .menu-container > ul > .product {
@@ -1994,3 +2024,53 @@ ul.box-filter > li ul {
 	margin: 0 0 5px;}
 .layout-1 .product .btn-view {}
 .layout-1 .product .btn-buy {}
+
+/* LAYOUT 2 */
+
+.layout-2 .menu-container > ul > li {
+	width: 180px;
+	float: left;
+	clear: left;
+	margin-bottom: 15px;
+}
+
+.layout-2 .menu-container > ul > li.banner {
+	width: 400px;
+	max-height: 160px;
+	overflow: hidden;
+	float: right;
+	clear: right;
+}
+
+.layout-2 .menu-container > ul > .product {
+	width: 400px;
+	border-top: 1px solid #eaeaea;
+}
+
+.layout-2 .menu-container .product {
+	clear: right;
+	float: right;
+	height: 160px;
+	position: relative;
+	padding: 15px 10px 0 145px;
+	margin: 15px 0 0;
+}
+
+.layout-2 .menu-container .product .menu-product-img {
+	position: absolute;
+	top: 15px;
+	left: 0;
+}
+
+.layout-2 .product .price, .layout-2 .product .btn {
+	float: left;
+}
+
+.layout-2 .product .name {
+	border-bottom: 1px solid #eaeaea;
+	padding: 10px 0 10px;
+	margin: 0 0 5px;;}
+.layout-2 .product .price {
+	margin: 0 0 5px;}
+.layout-2 .product .btn-view {}
+.layout-2 .product .btn-buy {}

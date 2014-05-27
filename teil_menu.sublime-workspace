@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"men",
+				"menu_container"
+			],
+			[
+				"item",
+				"item_left"
+			],
+			[
+				"mne",
+				"menu_container"
+			],
+			[
+				"menu",
+				"menu_container"
+			],
+			[
+				"view",
+				"view_type"
+			],
+			[
+				"pro",
+				"products"
+			],
+			[
+				"rem",
+				"remove"
+			],
+			[
 				"in",
 				"inline"
 			],
@@ -14,10 +42,6 @@
 			[
 				"text",
 				"text-transform"
-			],
-			[
-				"pro",
-				"product"
 			],
 			[
 				"he",
@@ -74,10 +98,6 @@
 			[
 				"calc",
 				"calculated"
-			],
-			[
-				"item",
-				"item-cart-c"
 			],
 			[
 				"item-cart",
@@ -494,26 +514,6 @@
 			[
 				"var",
 				"var_dump"
-			],
-			[
-				"view",
-				"view-block"
-			],
-			[
-				"c",
-				"checked"
-			],
-			[
-				"fonts",
-				"font-style"
-			],
-			[
-				"font-s",
-				"font-size"
-			],
-			[
-				"i",
-				"italic"
 			]
 		]
 	},
@@ -555,15 +555,7 @@
 			"file": "catalog/view/theme/default/template/module/menu.tpl",
 			"settings":
 			{
-				"buffer_size": 585,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/D/WebWork/trash/foundation-5.1.1/index.html",
-			"settings":
-			{
-				"buffer_size": 6424,
+				"buffer_size": 581,
 				"line_ending": "Unix"
 			}
 		},
@@ -579,35 +571,55 @@
 			"file": "system/library/menu.php",
 			"settings":
 			{
-				"buffer_size": 12999,
+				"buffer_size": 13371,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "&lt;li class='{{active}} {{self_class}} has-children-{{num_children}}'&gt;&lt;a class='menu-product-img' href='{{href}}'&gt;{{image}} &lt;/a&gt;&lt;a href='{{href}}' class='name'&gt;{{name}} &lt;/a&gt;&lt;span class='price'&gt;{{price}}&lt;/span&gt;&lt;a href='{{href}}' class='btn btn-buy'&gt;{{add}}&lt;/a&gt;&lt;a href='{{href}}' class='btn btn-view'&gt;{{view}}&lt;/a&gt;&lt;/li&gt;",
-			"settings":
-			{
-				"buffer_size": 386,
-				"line_ending": "Windows",
-				"name": "&lt;li class='{{active}} {{self_class}} has-childr"
-			}
-		},
-		{
-			"file": "system/library/menu_helper.php",
-			"settings":
-			{
-				"buffer_size": 1087,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "html {\n	overflow-y: scroll;\n	margin: 0;\n	padding: 0;\n}\nbody {\n	background-color: #ffffff;\n	color: #000000;\n	font-family: Arial, Helvetica, sans-serif;\n	margin: 0px;\n	padding: 0px;\n}\nbody, td, th, input, textarea, select, a {\n	font-size: 12px;\n}\nh1, .welcome {\n	color: #636E75;\n	font: Verdana;\n	margin-top: 0px;\n	margin-bottom: 20px;\n	font-size: 32px;\n	font-weight: normal;\n	text-shadow: 0 0 1px rgba(0, 0, 0, .01);\n}\nh2 {\n	color: #000000;\n	font-size: 16px;\n	margin-top: 0px;\n	margin-bottom: 5px;\n}\np {\n	margin-top: 0px;\n	margin-bottom: 20px;\n}\na, a:visited, a b {\n	color: #38B0E3;\n	text-decoration: underline;\n	cursor: pointer;\n}\na:hover {\n	text-decoration: none;\n}\na img {\n	border: none;\n}\nform {\n	padding: 0;\n	margin: 0;\n	display: inline;\n}\ninput[type='text'], input[type='password'], textarea {\n	background: #F8F8F8;\n	border: 1px solid #CCCCCC;\n	padding: 3px;\n	margin-left: 0px;\n	margin-right: 0px;\n}\nselect {\n	background: #F8F8F8;\n	border: 1px solid #CCCCCC;\n	padding: 2px;\n}\nlabel {\n	cursor: pointer;\n}\n/* layout */\n#container {\n	width: 980px;\n	margin-left: auto;\n	margin-right: auto;\n	text-align: left;\n}\n#column-left {\n	float: left;\n	width: 180px;\n}\n#column-right {\n	float: right;\n	width: 180px;\n}\n#content {\n	min-height: 400px;\n	margin-bottom: 25px;\n}\n#column-left + #column-right + #content, #column-left + #content {\n	margin-left: 195px;\n}\n#column-right + #content {\n	margin-right: 195px;\n}\n/* header */\n#header {\n	height: 90px;\n	margin-bottom: 7px;\n	padding-bottom: 4px;\n	position: relative;\n	z-index: 99;\n}\n#header #logo {\n	position: absolute;\n	top: 25px;\n	left: 15px;\n}\n#language {\n	position: absolute;\n	top: 15px;\n	left: 320px;\n	width: 80px;\n	color: #999;\n	line-height: 17px;\n}\n#language img {\n	cursor: pointer;\n	margin-right: 5px;\n}\n#currency {\n	width: 75px;\n	position: absolute;\n	top: 15px;\n	left: 425px;\n	color: #999;\n	line-height: 17px;\n}\n#currency a {\n	display: inline-block;\n	padding: 2px 4px;\n	border: 1px solid #CCC;\n	color: #999;\n	text-decoration: none;\n	margin-right: 2px;\n	margin-bottom: 2px;\n}\n#currency a b {\n	color: #000;\n	text-decoration: none;\n}\n#header #cart {\n	position: absolute;\n	top: 0px;\n	right: 145px;\n	z-index: 9;\n	min-width: 300px;\n}\n#header #cart .heading {\n	float: right;\n	margin-right: 172px;\n	margin-top: 15px;\n	padding-left: 14px;\n	padding-right: 14px;\n	border-top: 1px solid #FFFFFF;\n	border-left: 1px solid #FFFFFF;\n	border-right: 1px solid #EEEEEE;\n	background: #FFF;\n	position: relative;\n	z-index: 1;\n}\n#header #cart .heading h4 {\n	color: #333333;\n	font-size: 15px;\n	font-weight: bold;\n	margin-top: 0px;\n	margin-bottom: 3px;\n}\n#header #cart .heading a {\n	color: #38B0E3;\n	text-decoration: none;\n}\n#header #cart .heading a span {\n	background: #FFFFFF url('../image/arrow-down.png') 100% 50% no-repeat;\n	padding-right: 15px;\n}\n#header #cart .content {\n	clear: both;\n	display: none;\n	position: relative;\n	top: -1px;\n	padding: 8px;\n	min-height: 150px;\n	border-top: 1px solid #EEEEEE;\n	border-left: 1px solid #EEEEEE;\n	border-right: 1px solid #EEEEEE;\n	border-bottom: 1px solid #EEEEEE;\n	-webkit-border-radius: 0px 7px 7px 7px;\n	-moz-border-radius: 0px 7px 7px 7px;\n	-khtml-border-radius: 0px 7px 7px 7px;\n	border-radius: 0px 7px 7px 7px;\n	-webkit-box-shadow: 0px 2px 2px #DDDDDD;\n	-moz-box-shadow: 0px 2px 2px #DDDDDD;\n	box-shadow: 0px 2px 2px #DDDDDD;\n	background: #FFF;\n}\n#header #cart.active .heading {\n	margin-top: 5px;\n	padding-top: 10px;\n	padding-bottom: 6px;\n	border-top: 1px solid #EEEEEE;\n	border-left: 1px solid #EEEEEE;\n	border-right: 1px solid #EEEEEE;\n	-webkit-border-radius: 7px 7px 0px 0px;\n	-moz-border-radius: 7px 7px 0px 0px;\n	-khtml-border-radius: 7px 7px 0px 0px;\n	border-radius: 7px 7px 0px 0px;\n}\n#header #cart.active .content {\n	display: block;\n}\n.mini-cart-info table {\n	border-collapse: collapse;\n	width: 100%;\n	margin-bottom: 5px;\n}\n.mini-cart-info td {\n	color: #000;\n	vertical-align: top;\n	padding: 10px 5px;\n	border-bottom: 1px solid #EEEEEE;\n}\n.mini-cart-info .image {\n	width: 1px;\n}\n.mini-cart-info .image img {\n	border: 1px solid #EEEEEE;\n	text-align: left;\n}\n.mini-cart-info .name small {\n	color: #666;\n}\n.mini-cart-info .quantity {\n	text-align: right;\n}\n.mini-cart-info td.total {\n	text-align: right;\n}\n.mini-cart-info .remove {\n	text-align: right;\n}\n.mini-cart-info .remove img {\n	cursor: pointer;\n}\n.mini-cart-total {\n	text-align: right;\n}\n.mini-cart-total table {\n	border-collapse: collapse;\n	display: inline-block;\n	margin-bottom: 5px;\n}\n.mini-cart-total td {\n	color: #000;\n	padding: 4px;\n}\n#header #cart .checkout {\n	text-align: right;\n	clear: both;\n}\n#header #cart .empty {\n	padding-top: 50px;\n	text-align: center;\n}\n#header #search {\n	position: absolute;\n	top: 15px;\n	right: 0px;\n	width: 298px;\n	z-index: 15;\n}\n#header .button-search {\n	position: absolute;\n	left: 0px;\n	background: url('../image/button-search.png') center center no-repeat;\n	width: 28px;\n	height: 24px;\n	border-right: 1px solid #CCCCCC;\n	cursor: pointer;\n}\n#header #search input {\n	background: #FFF;\n	padding: 1px 1px 1px 33px;\n	width: 262px;\n	height: 21px;\n	border: 1px solid #CCCCCC;\n	-webkit-border-radius: 3px 3px 3px 3px;\n	-moz-border-radius: 3px 3px 3px 3px;\n	-khtml-border-radius: 3px 3px 3px 3px;\n	border-radius: 3px 3px 3px 3px;\n	-webkit-box-shadow: 0px 2px 0px #F0F0F0;\n	-moz-box-shadow: 0px 2px 0px #F0F0F0;\n	box-shadow: 0px 2px 0px #F0F0F0;\n}\n#header #welcome {\n	position: absolute;\n	top: 47px;\n	right: 0px;\n	z-index: 5;\n	width: 298px;\n	text-align: right;\n	color: #999999;\n}\n#header .links {\n	position: absolute;\n	right: 0px;\n	bottom: 3px;\n	font-size: 10px;\n	padding-right: 10px;\n}\n#header .links a {\n	float: left;\n	display: block;\n	padding: 0px 0px 0px 7px;\n	color: #38B0E3;\n	text-decoration: none;\n	font-size: 12px;\n}\n#header .links a + a {\n	margin-left: 8px;\n	border-left: 1px solid #CCC;\n}\n/* menu */\n#menu {\n	background: #585858;\n	border-bottom: 1px solid #000000;\n	height: 37px;\n	margin-bottom: 15px;\n	-webkit-border-radius: 5px 5px 5px 5px;\n	-moz-border-radius: 5px 5px 5px 5px;\n	-khtml-border-radius: 5px 5px 5px 5px;\n	border-radius: 5px 5px 5px 5px;\n	-webkit-box-shadow: 0px 2px 2px #DDDDDD;\n	-moz-box-shadow: 0px 2px 2px #DDDDDD;\n	box-shadow: 0px 2px 2px #DDDDDD;\n	padding: 0px 5px;\n}\n#menu ul {\n	list-style: none;\n	margin: 0;\n	padding: 0;\n}\n#menu > ul > li {\n	position: relative;\n	float: left;\n	z-index: 20;\n	padding: 6px 5px 5px 0px;\n}\n#menu > ul > li:hover {\n}\n#menu > ul > li > a {\n	font-size: 13px;\n	color: #FFF;\n	line-height: 14px;\n	text-decoration: none;\n	display: block;\n	padding: 6px 10px 6px 10px;\n	margin-bottom: 5px;\n	z-index: 6;\n	position: relative;\n}\n#menu > ul > li:hover > a {\n	background: #000000;\n	-webkit-border-radius: 5px;\n	-moz-border-radius: 5px;\n	-khtml-border-radius: 5px;\n	border-radius: 5px;\n}\n#menu > ul > li > div {\n	display: none;\n	background: #FFFFFF;\n	position: absolute;\n	z-index: 5;\n	padding: 5px;\n	border: 1px solid #000000;\n	-webkit-border-radius: 0px 0px 5px 5px;\n	-moz-border-radius: 0px 0px 5px 5px;\n	-khtml-border-radius: 0px 0px 5px 5px;\n	border-radius: 0px 0px 5px 5px;\n	background: url('../image/menu.png');\n}\n#menu > ul > li:hover > div {\n	display: table;\n}\n#menu > ul > li > div > ul {\n	display: table-cell;\n}\n#menu > ul > li ul + ul {\n	padding-left: 20px;\n}\n#menu > ul > li ul > li > a {\n	text-decoration: none;\n	padding: 4px;\n	color: #FFFFFF;\n	display: block;\n	white-space: nowrap;\n	min-width: 120px;\n}\n#menu > ul > li ul > li > a:hover {\n	background: #000000;\n}\n#menu > ul > li > div > ul > li > a {\n	color: #FFFFFF;\n}\n.breadcrumb {\n	color: #CCCCCC;\n	margin-bottom: 10px;\n}\n.success, .warning, .attention, .information {\n	padding: 10px 10px 10px 33px;\n	margin-bottom: 15px;\n	color: #555555;\n	-webkit-border-radius: 5px 5px 5px 5px;\n	-moz-border-radius: 5px 5px 5px 5px;\n	-khtml-border-radius: 5px 5px 5px 5px;\n	border-radius: 5px 5px 5px 5px;\n}\n.success {\n	background: #EAF7D9 url('../image/success.png') 10px center no-repeat;\n	border: 1px solid #BBDF8D;\n	-webkit-border-radius: 5px 5px 5px 5px;\n	-moz-border-radius: 5px 5px 5px 5px;\n	-khtml-border-radius: 5px 5px 5px 5px;\n	border-radius: 5px 5px 5px 5px;\n}\n.warning {\n	background: #FFD1D1 url('../image/warning.png') 10px center no-repeat;\n	border: 1px solid #F8ACAC;\n	-webkit-border-radius: 5px 5px 5px 5px;\n	-moz-border-radius: 5px 5px 5px 5px;\n	-khtml-border-radius: 5px 5px 5px 5px;\n	border-radius: 5px 5px 5px 5px;\n}\n.attention {\n	background: #FFF5CC url('../image/attention.png') 10px center no-repeat;\n	border: 1px solid #F2DD8C;\n	-webkit-border-radius: 5px 5px 5px 5px;\n	-moz-border-radius: 5px 5px 5px 5px;\n	-khtml-border-radius: 5px 5px 5px 5px;\n	border-radius: 5px 5px 5px 5px;\n}\n.success .close, .warning .close, .attention .close, .information .close {\n	float: right;\n	padding-top: 4px;\n	padding-right: 4px;\n	cursor: pointer;\n}\n.required {\n	color: #FF0000;\n	font-weight: bold;\n}\n.error {\n	display: block;\n	color: #FF0000;\n}\n.help {\n	color: #999;\n	font-size: 10px;\n	font-weight: normal;\n	font-family: Verdana, Geneva, sans-serif;\n	display: block;\n}\ntable.form {\n	width: 100%;\n	border-collapse: collapse;\n	margin-bottom: 20px;\n}\ntable.form tr td:first-child {\n	width: 150px;\n}\ntable.form > * > * > td {\n	color: #000000;\n}\ntable.form td {\n	padding: 4px;\n}\ninput.large-field, select.large-field {\n	width: 300px;\n}\ntable.list {\n	border-collapse: collapse;\n	width: 100%;\n	border-top: 1px solid #DDDDDD;\n	border-left: 1px solid #DDDDDD;\n	margin-bottom: 20px;\n}\ntable.list td {\n	border-right: 1px solid #DDDDDD;\n	border-bottom: 1px solid #DDDDDD;\n}\ntable.list thead td {\n	background-color: #EFEFEF;\n	padding: 0px 5px;\n}\ntable.list thead td a, .list thead td {\n	text-decoration: none;\n	color: #222222;\n	font-weight: bold;\n}\ntable.list tbody td {\n	padding: 0px 5px;\n}\ntable.list .left {\n	text-align: left;\n	padding: 7px;\n}\ntable.list .right {\n	text-align: right;\n	padding: 7px;\n}\ntable.list .center {\n	text-align: center;\n	padding: 7px;\n}\ntable.radio {\n	width: 100%;\n	border-collapse: collapse;\n}\ntable.radio td {\n	padding: 5px;\n}\ntable.radio td label {\n	display: block;\n}\ntable.radio tr td:first-child {\n	width: 1px;\n}\ntable.radio tr td:first-child input {\n	margin-top: 1px;\n}\ntable.radio tr.highlight:hover td {\n	background: #F1FFDD;\n	cursor: pointer;\n}\n.pagination {\n	border-top: 1px solid #EEEEEE;\n	padding-top: 8px;\n	display: inline-block;\n	width: 100%;\n	margin-bottom: 10px;\n}\n.pagination .links {\n	float: left;\n}\n.pagination .links a {\n	display: inline-block;\n	border: 1px solid #EEEEEE;\n	padding: 4px 10px;\n	text-decoration: none;\n	color: #A3A3A3;\n}\n.pagination .links b {\n	display: inline-block;\n	border: 1px solid #269BC6;\n	padding: 4px 10px;\n	font-weight: normal;\n	text-decoration: none;\n	color: #269BC6;\n	background: #FFFFFF;\n}\n.pagination .results {\n	float: right;\n	padding-top: 3px;\n}\n/* button */\na.button, input.button {\n	cursor: pointer;\n	color: #FFFFFF;\n	line-height: 12px;\n	font-family: Arial, Helvetica, sans-serif;\n	font-size: 12px;\n	font-weight: bold;\n	background: url('../image/button.png') repeat-x;\n	-webkit-border-radius: 7px 7px 7px 7px;\n	-moz-border-radius: 7px 7px 7px 7px;\n	-khtml-border-radius: 7px 7px 7px 7px;\n	border-radius: 7px 7px 7px 7px;\n	-webkit-box-shadow: 0px 2px 2px #DDDDDD;\n	-moz-box-shadow: 0px 2px 2px #DDDDDD;\n	box-shadow: 0px 2px 2px #DDDDDD;\n}\na.button {\n	display: inline-block;\n	text-decoration: none;\n	padding: 6px 12px 6px 12px;\n}\ninput.button {\n	margin: 0;\n	border: 0;\n	height: 24px;\n	padding: 0px 12px 0px 12px;\n}\na.button:hover, input.button:hover {\n	background-position: 0px -24px;\n}\n.buttons {\n	background: #FFFFFF;\n	border: 1px solid #EEEEEE;\n	overflow: auto;\n	padding: 6px;\n	margin-bottom: 20px;\n}\n.buttons .left {\n	float: left;\n	text-align: left;\n}\n.buttons .right {\n	float: right;\n	text-align: right;\n}\n.buttons .center {\n	text-align: center;\n	margin-left: auto;\n	margin-right: auto;\n}\n.htabs {\n	height: 30px;\n	line-height: 16px;\n	border-bottom: 1px solid #DDDDDD;\n}\n.htabs a {\n	border-top: 1px solid #DDDDDD;\n	border-left: 1px solid #DDDDDD;\n	border-right: 1px solid #DDDDDD;\n	background: #FFFFFF url('../image/tab.png') repeat-x;\n	padding: 7px 15px 6px 15px;\n	float: left;\n	font-family: Arial, Helvetica, sans-serif;\n	font-size: 13px;\n	font-weight: bold;\n	text-align: center;\n	text-decoration: none;\n	color: #000000;\n	margin-right: 2px;\n	display: none;\n}\n.htabs a.selected {\n	padding-bottom: 7px;\n	background: #FFFFFF;\n}\n.tab-content {\n	border-left: 1px solid #DDDDDD;\n	border-right: 1px solid #DDDDDD;\n	border-bottom: 1px solid #DDDDDD;\n	padding: 10px;\n	margin-bottom: 20px;\n	z-index: 2;\n	overflow: auto;\n}\n/* box */\n.box {\n	margin-bottom: 20px;\n}\n.box .box-heading {\n	-webkit-border-radius: 7px 7px 0px 0px;\n	-moz-border-radius: 7px 7px 0px 0px;\n	-khtml-border-radius: 7px 7px 0px 0px;\n	border-radius: 7px 7px 0px 0px;\n	border: 1px solid #DBDEE1;\n	background: url('../image/background.png') repeat-x;\n	padding: 8px 10px 7px 10px;\n	font-family: Arial, Helvetica, sans-serif;\n	font-size: 14px;\n	font-weight: bold;\n	line-height: 14px;\n	color: #333;\n}\n.box .box-content {\n	background: #FFFFFF;\n	-webkit-border-radius: 0px 0px 7px 7px;\n	-moz-border-radius: 0px 0px 7px 7px;\n	-khtml-border-radius: 0px 0px 7px 7px;\n	border-radius: 0px 0px 7px 7px;\n	border-left: 1px solid #DBDEE1;\n	border-right: 1px solid #DBDEE1;\n	border-bottom: 1px solid #DBDEE1;\n	padding: 10px;\n}\n/* box products */\n.box-product {\n	width: 100%;\n	overflow: auto;\n}\n.box-product > div {\n	width: 130px;\n	display: inline-block;\n	vertical-align: top;\n	margin-right: 20px;\n	margin-bottom: 20px;\n}\n#column-left + #column-right + #content .box-product > div {\n	width: 119px;\n}\n.box-product .image {\n	display: block;\n	margin-bottom: 0px;\n}\n.box-product .image img {\n	padding: 3px;\n	border: 1px solid #E7E7E7;\n}\n.box-product .name a {\n	color: #38B0E3;\n	font-weight: bold;\n	text-decoration: none;\n	display: block;\n	margin-bottom: 4px;\n}\n.box-product .price {\n	display: block;\n	font-weight: bold;\n	color: #333333;\n	margin-bottom: 4px;\n}\n.box-product .price-old {\n	color: #F00;\n	text-decoration: line-through;\n}\n.box-product .price-new {\n	font-weight: bold;\n}\n.box-product .rating {\n	display: block;\n	margin-bottom: 4px;\n}\n/* box category */\nul.box-category, ul.box-category ul {\n	list-style: none;\n	margin: 0;\n	padding: 0;\n}\nul.box-category > li:first-child {\n	padding: 0px 8px 8px 0px;\n}\nul.box-category > li {\n	padding: 8px 8px 8px 0px;\n}\nul.box-category > li + li {\n	border-top: 1px solid #EEEEEE;\n}\nul.box-category > li > a {\n	text-decoration: none;\n	color: #333;\n}\nul.box-category > li ul {\n	display: none;\n}\nul.box-category > li a.active {\n	font-weight: bold;\n}\nul.box-category > li a.active + ul {\n	display: block;\n}\nul.box-category > li ul > li {\n	padding: 5px 5px 0px 10px;\n}\nul.box-category > li ul > li > a {\n	text-decoration: none;\n	display: block;\n}\nul.box-category > li ul > li > a.active {\n	font-weight: bold;\n}\n/* box filter */\nul.box-filter, ul.box-filter ul {\n	list-style: none;\n	margin: 0;\n	padding: 0;\n}\nul.box-filter span {\n	font-weight: bold;\n	border-bottom: 1px solid #EEEEEE;	\n	display: block;\n	padding-bottom: 5px;\n	margin-bottom: 8px;\n}\nul.box-filter > li ul {\n	padding-bottom: 10px;\n}\n/* content */\n#content .content {\n	padding: 10px;\n	overflow: auto;\n	margin-bottom: 20px;\n	border: 1px solid #EEEEEE;\n}\n#content .content .left {\n	float: left;\n	width: 49%;\n}\n#content .content .right {\n	float: right;\n	width: 49%;\n}\n/* category */\n.category-info {\n	overflow: auto;\n	margin-bottom: 20px;\n}\n.category-info .image {\n	float: left;\n	padding: 5px;\n	margin-right: 15px;\n	border: 1px solid #E7E7E7;\n}\n.category-list {\n	overflow: auto;\n	margin-bottom: 20px;\n}\n.category-list ul {\n	float: left;\n	width: 18%;\n}\n/* manufacturer */\n.manufacturer-list {\n	border: 1px solid #DBDEE1;\n	padding: 5px;\n	overflow: auto;\n	margin-bottom: 20px;\n}\n.manufacturer-heading {\n	background: #F8F8F8;\n	font-size: 15px;\n	font-weight: bold;\n	padding: 5px 8px;\n	margin-bottom: 6px;\n}\n.manufacturer-content {\n	padding: 8px;\n}\n.manufacturer-list ul {\n	float: left;\n	width: 25%;\n	margin: 0;\n	padding: 0;\n	list-style: none;\n	margin-bottom: 10px;\n}\n/* product */\n.product-filter {\n	border-bottom: 1px solid #EEEEEE;\n	padding-bottom: 5px;\n	overflow: auto;\n}\n.product-filter .display {\n	margin-right: 15px;\n	float: left;\n	padding-top: 4px;\n	color: #333;\n}\n.product-filter .display a {\n	font-weight: bold;\n}\n.product-filter .sort {\n	float: right;\n	color: #333;\n}\n.product-filter .limit {\n	margin-left: 15px;\n	float: right;\n	color: #333;\n}\n.product-compare {\n	padding-top: 6px;\n	margin-bottom: 25px;\n	font-weight: bold;\n}\n.product-compare a {\n	text-decoration: none;\n	font-weight: bold;\n}\n.product-list > div {\n	overflow: auto;\n	margin-bottom: 15px;\n}\n.product-list .right {\n	float: right;\n	margin-left: 15px;\n}\n.product-list > div + div {\n	border-top: 1px solid #EEEEEE;\n	padding-top: 16px;\n}\n.product-list .image {\n	float: left;\n	margin-right: 10px;\n}\n.product-list .image img {\n	padding: 3px;\n	border: 1px solid #E7E7E7;\n}\n.product-list .name {\n	margin-bottom: 3px;\n}\n.product-list .name a {\n	color: #38B0E3;\n	font-weight: bold;\n	text-decoration: none;\n}\n.product-list .description {\n	line-height: 15px;\n	margin-bottom: 5px;\n	color: #4D4D4D;\n}\n.product-list .rating {\n	color: #7B7B7B;\n}\n.product-list .price {\n	float: right;\n	height: 50px;\n	margin-left: 8px;\n	text-align: right;\n	color: #333333;\n	font-size: 12px;\n}\n.product-list .price-old {\n	color: #F00;\n	text-decoration: line-through;\n}\n.product-list .price-new {\n	font-weight: bold;\n}\n.product-list .price-tax {\n	font-size: 12px;\n	font-weight: normal;\n	color: #BBBBBB;\n}\n.product-list .cart {\n	margin-bottom: 3px;\n}\n.product-list .wishlist, .product-list .compare {\n	margin-bottom: 3px;\n}\n.product-list .wishlist a {\n	color: #333333;\n	text-decoration: none;\n	padding-left: 18px;\n	display: block;\n	background: url('../image/add.png') left center no-repeat;\n}\n.product-list .compare a {\n	color: #333333;\n	text-decoration: none;\n	padding-left: 18px;\n	display: block;\n	background: url('../image/add.png') left 60% no-repeat;\n}\n.product-grid {\n	width: 100%;\n	overflow: auto;\n}\n.product-grid > div {\n	width: 130px;\n	display: inline-block;\n	vertical-align: top;\n	margin-right: 20px;\n	margin-bottom: 15px;\n}\n#column-left + #column-right + #content .product-grid > div {\n	width: 125px;\n}\n.product-grid .image {\n	display: block;\n	margin-bottom: 0px;\n}\n.product-grid .image img {\n	padding: 3px;\n	border: 1px solid #E7E7E7;\n}\n.product-grid .name a {\n	color: #38B0E3;\n	font-weight: bold;\n	text-decoration: none;\n	display: block;\n	margin-bottom: 4px;\n}\n.product-grid .description {\n	display: none;\n}\n.product-grid .rating {\n	display: block;\n	margin-bottom: 4px;\n}\n.product-grid .price {\n	display: block;\n	font-weight: bold;\n	color: #333333;\n	margin-bottom: 4px;\n}\n.product-grid .price-old {\n	color: #F00;\n	text-decoration: line-through;\n}\n.product-grid .price-new {\n	font-weight: bold;\n}\n.product-grid .price .price-tax {\n	display: none;\n}\n.product-grid .cart {\n	margin-bottom: 3px;\n}\n.product-grid .wishlist, .product-grid .compare {\n	margin-bottom: 3px;\n}\n.product-grid .wishlist a {\n	color: #333333;\n	text-decoration: none;\n	padding-left: 18px;\n	display: block;\n	background: url('../image/add.png') left center no-repeat;\n}\n.product-grid .compare a {\n	color: #333333;\n	text-decoration: none;\n	padding-left: 18px;\n	display: block;\n	background: url('../image/add.png') left center no-repeat;\n}\n/* Product */\n.product-info {\n	overflow: auto;\n	margin-bottom: 20px;\n}\n.product-info > .left {\n	float: left;\n	margin-right: 15px;\n}\n.product-info > .left + .right {\n	margin-left: 265px;\n}\n.product-info .image {\n	border: 1px solid #E7E7E7;\n	float: left;\n	margin-bottom: 20px;\n	padding: 10px;\n	text-align: center;\n}\n.product-info .image-additional {\n	width: 260px;\n	margin-left: -10px;\n	clear: both;\n	overflow: hidden;\n}\n.product-info .image-additional img {\n	border: 1px solid #E7E7E7;\n}\n.product-info .image-additional a {\n	float: left;\n	display: block;\n	margin-left: 10px;\n	margin-bottom: 10px;\n}\n.product-info .description {\n	border-top: 1px solid #E7E7E7;\n	border-bottom: 1px solid #E7E7E7;\n	padding: 5px 5px 10px 5px;\n	margin-bottom: 10px;\n	line-height: 20px;\n	color: #4D4D4D;\n}\n.product-info .description span {\n	color: #38B0E3;\n}\n.product-info .description a {\n	color: #4D4D4D;\n	text-decoration: none;\n}\n.product-info .price {\n	overflow: auto;\n	border-bottom: 1px solid #E7E7E7;\n	padding: 0px 5px 10px 5px;\n	margin-bottom: 10px;\n	font-size: 15px;\n	font-weight: bold;\n	color: #333333;\n}\n.product-info .price-old {\n	color: #F00;\n	text-decoration: line-through;\n}\n.product-info .price-new {\n}\n.product-info .price-tax {\n	font-size: 12px;\n	font-weight: normal;\n	color: #999;\n}\n.product-info .price .reward {\n	font-size: 12px;\n	font-weight: normal;\n	color: #999;\n}\n.product-info .price .discount {\n	font-weight: normal;\n	font-size: 12px;\n	color: #4D4D4D;\n}\n.product-info .options {\n	border-bottom: 1px solid #E7E7E7;\n	padding: 0px 5px 10px 5px;\n	margin-bottom: 10px;\n	color: #000000;\n}\n.product-info .option-image {\n	margin-top: 3px;\n	margin-bottom: 10px;\n}\n.product-info .option-image label {\n	display: block;\n	width: 100%;\n	height: 100%;\n}\n.product-info .option-image img {\n	margin-right: 5px;\n	border: 1px solid #CCCCCC;\n	cursor: pointer;\n}\n.product-info .cart {\n	border-bottom: 1px solid #E7E7E7;\n	padding: 0px 5px 10px 5px;\n	margin-bottom: 20px;\n	color: #4D4D4D;\n}\n.product-info .cart div > span {\n	color: #999;\n}\n.product-info .cart .links {\n	display: inline-block;\n	vertical-align: middle;\n}\n.product-info .cart .minimum {\n	padding-top: 5px;\n	font-size: 11px;\n	color: #999;\n}\n.product-info .review {\n	color: #4D4D4D;\n	border-top: 1px solid #E7E7E7;\n	border-left: 1px solid #E7E7E7;\n	border-right: 1px solid #E7E7E7;\n	margin-bottom: 10px;\n}\n.product-info .review > div {\n	padding: 8px;\n	border-bottom: 1px solid #E7E7E7;\n	line-height: 20px;\n}\n.product-info .review > div > span {\n	color: #38B0E3;\n}\n.product-info .review .share {\n	overflow: auto;\n	line-height: normal;\n}\n.product-info .review .share a {\n	text-decoration: none;\n}\n.review-list {\n	padding: 10px;\n	overflow: auto;\n	margin-bottom: 20px;\n	border: 1px solid #EEEEEE;\n}\n.review-list .author {\n	float: left;\n	margin-bottom: 20px;\n}\n.review-list .rating {\n	float: right;\n	margin-bottom: 20px;\n}\n.review-list .text {\n	clear: both;\n}\n.attribute {\n	border-collapse: collapse;\n	width: 100%;\n	border-top: 1px solid #DDDDDD;\n	border-left: 1px solid #DDDDDD;\n	margin-bottom: 20px;\n}\n.attribute thead td, .attribute thead tr td:first-child {\n	color: #000000;\n	font-size: 14px;\n	font-weight: bold;\n	background: #F7F7F7;\n	text-align: left;\n}\n.attribute tr td:first-child {\n	color: #000000;\n	font-weight: bold;\n	text-align: right;\n	width: 20%;\n}\n.attribute td {\n	padding: 7px;\n	color: #4D4D4D;\n	text-align: center;\n	vertical-align: top;\n	border-right: 1px solid #DDDDDD;\n	border-bottom: 1px solid #DDDDDD;\n}\n.compare-info {\n	border-collapse: collapse;\n	width: 100%;\n	border-top: 1px solid #DDDDDD;\n	border-left: 1px solid #DDDDDD;\n	margin-bottom: 20px;\n}\n.compare-info thead td, .compare-info thead tr td:first-child {\n	color: #000000;\n	font-size: 14px;\n	font-weight: bold;\n	background: #F7F7F7;\n	text-align: left;\n}\n.compare-info tr td:first-child {\n	color: #000000;\n	font-weight: bold;\n	text-align: right;\n}\n.compare-info td {\n	padding: 7px;\n	width: 20%;\n	color: #4D4D4D;\n	text-align: center;\n	vertical-align: top;\n	border-right: 1px solid #DDDDDD;\n	border-bottom: 1px solid #DDDDDD;\n}\n.compare-info .name a {\n	font-weight: bold;\n}\n.compare-info .price-old {\n	font-weight: bold;\n	color: #F00;\n	text-decoration: line-through;\n}\n.compare-info .price-new {\n	font-weight: bold;\n}\n/* wishlist */\n.wishlist-info table {\n	width: 100%;\n	border-collapse: collapse;\n	border-top: 1px solid #DDDDDD;\n	border-left: 1px solid #DDDDDD;\n	border-right: 1px solid #DDDDDD;\n	margin-bottom: 20px;\n}\n.wishlist-info td {\n	padding: 7px;\n}\n.wishlist-info thead td {\n	color: #4D4D4D;\n	font-weight: bold;\n	background-color: #F7F7F7;\n	border-bottom: 1px solid #DDDDDD;\n}\n.wishlist-info thead .image {\n	text-align: center;\n}\n.wishlist-info thead .name, .wishlist-info thead .model, .wishlist-info thead .stock {\n	text-align: left;\n}\n.wishlist-info thead .quantity, .wishlist-info thead .price, .wishlist-info thead .total, .wishlist-info thead .action {\n	text-align: right;\n}\n.wishlist-info tbody td {\n	vertical-align: top;\n	border-bottom: 1px solid #DDDDDD;\n}\n.wishlist-info tbody .image img {\n	border: 1px solid #DDDDDD;\n}\n.wishlist-info tbody .image {\n	text-align: center;\n}\n.wishlist-info tbody .name, .wishlist-info tbody .model, .wishlist-info tbody .stock {\n	text-align: left;\n}\n.wishlist-info tbody .quantity, .wishlist-info tbody .price, .wishlist-info tbody .total, .wishlist-info tbody .action {\n	text-align: right;\n}\n.wishlist-info tbody .price s {\n	color: #F00;\n}\n.wishlist-info tbody .action img {\n	cursor: pointer;\n}\n.login-content {\n	margin-bottom: 20px;\n	overflow: auto;\n}\n.login-content .left {\n	float: left;\n	width: 48%;\n}\n.login-content .right {\n	float: right;\n	width: 48%\n}\n.login-content .left .content, .login-content .right .content {\n	min-height: 190px;\n}\n/* orders */\n.order-list {\n	margin-bottom: 10px;\n}\n.order-list .order-id {\n	width: 49%;\n	float: left;\n	margin-bottom: 2px;\n}\n.order-list .order-status {\n	width: 49%;\n	float: right;\n	text-align: right;\n	margin-bottom: 2px;\n}\n.order-list .order-content {\n	padding: 10px 0px;\n	display: inline-block;\n	width: 100%;\n	margin-bottom: 20px;\n	border-top: 1px solid #EEEEEE;\n	border-bottom: 1px solid #EEEEEE;\n}\n.order-list .order-content div {\n	float: left;\n	width: 33.3%;\n}\n.order-list .order-info {\n	text-align: right;\n}\n.order-detail {\n	background: #EFEFEF;\n	font-weight: bold;\n}\n/* returns */\n.return-list {\n	margin-bottom: 10px;\n}\n.return-list .return-id {\n	width: 49%;\n	float: left;\n	margin-bottom: 2px;\n}\n.return-list .return-status {\n	width: 49%;\n	float: right;\n	text-align: right;\n	margin-bottom: 2px;\n}\n.return-list .return-content {\n	padding: 10px 0px;\n	display: inline-block;\n	width: 100%;\n	margin-bottom: 20px;\n	border-top: 1px solid #EEEEEE;\n	border-bottom: 1px solid #EEEEEE;\n}\n.return-list .return-content div {\n	float: left;\n	width: 33.3%;\n}\n.return-list .return-info {\n	text-align: right;\n}\n.return-product {\n	overflow: auto;\n	margin-bottom: 20px;\n}\n.return-name {\n	float: left;\n	width: 31%;\n	margin-right: 15px;\n}\n.return-model {\n	float: left;\n	width: 31%;\n	margin-right: 15px;\n}\n.return-quantity {\n	float: left;\n	width: 31%;\n}\n.return-detail {\n	overflow: auto;\n	margin-bottom: 20px;\n}\n.return-reason {\n	float: left;\n	width: 31%;\n	margin-right: 15px;\n}\n.return-opened {\n	float: left;\n	width: 31%;\n	margin-right: 15px;\n}\n.return-opened textarea {\n	width: 98%;\n	vertical-align: top;\n}\n.return-captcha {\n	float: left;\n}\n.download-list {\n	margin-bottom: 10px;\n}\n.download-list .download-id {\n	width: 49%;\n	float: left;\n	margin-bottom: 2px;\n}\n.download-list .download-status {\n	width: 49%;\n	float: right;\n	text-align: right;\n	margin-bottom: 2px;\n}\n.download-list .download-content {\n	padding: 10px 0px;\n	display: inline-block;\n	width: 100%;\n	margin-bottom: 20px;\n	border-top: 1px solid #EEEEEE;\n	border-bottom: 1px solid #EEEEEE;\n}\n.download-list .download-content div {\n	float: left;\n	width: 33.3%;\n}\n.download-list .download-info {\n	text-align: right;\n}\n/* cart */\n.cart-info table {\n	width: 100%;\n	margin-bottom: 15px;\n	border-collapse: collapse;\n	border-top: 1px solid #DDDDDD;\n	border-left: 1px solid #DDDDDD;\n	border-right: 1px solid #DDDDDD;\n}\n.cart-info td {\n	padding: 7px;\n}\n.cart-info thead td {\n	color: #4D4D4D;\n	font-weight: bold;\n	background-color: #F7F7F7;\n	border-bottom: 1px solid #DDDDDD;\n}\n.cart-info thead .image {\n	text-align: center;\n}\n.cart-info thead .name, .cart-info thead .model, .cart-info thead .quantity {\n	text-align: left;\n}\n.cart-info thead .price, .cart-info thead .total {\n	text-align: right;\n}\n.cart-info tbody td {\n	vertical-align: top;\n	border-bottom: 1px solid #DDDDDD;\n}\n.cart-info tbody .image img {\n	border: 1px solid #DDDDDD;\n}\n.cart-info tbody .image {\n	text-align: center;\n}\n.cart-info tbody .name, .cart-info tbody .model, .cart-info tbody .quantity {\n	text-align: left;\n}\n.cart-info tbody .quantity input[type='image'], .cart-info tbody .quantity img {\n	position: relative;\n	top: 4px;\n	cursor: pointer;\n}\n.cart-info tbody .price, .cart-info tbody .total {\n	text-align: right;\n}\n.cart-info tbody span.stock {\n	color: #F00;\n	font-weight: bold;\n}\n.cart-module > div {\n	display: none;\n}\n.cart-total {\n	border-top: 1px solid #DDDDDD;\n	overflow: auto;\n	padding-top: 8px;\n	margin-bottom: 15px;\n}\n.cart-total table {\n	float: right;\n}\n.cart-total td {\n	padding: 3px;\n	text-align: right;\n}\n/* checkout */\n.checkout-heading {\n	background: #F8F8F8;\n	border: 1px solid #DBDEE1;\n	padding: 8px;\n	font-weight: bold;\n	font-size: 13px;\n	color: #555555;\n	margin-bottom: 15px;\n}\n.checkout-heading a {\n	float: right;\n	margin-top: 1px;\n	font-weight: normal;\n	text-decoration: none;\n}\n.checkout-content {\n	padding: 0px 0px 15px 0px;\n	display: none;\n	overflow: auto;\n}\n.checkout-content .left {\n	float: left;\n	width: 48%;\n}\n.checkout-content .right {\n	float: right;\n	width: 48%;\n}\n.checkout-content .buttons {\n	clear: both;\n}\n.checkout-product table {\n	width: 100%;\n	border-collapse: collapse;\n	border-top: 1px solid #DDDDDD;\n	border-left: 1px solid #DDDDDD;\n	border-right: 1px solid #DDDDDD;\n	margin-bottom: 20px;\n}\n.checkout-product td {\n	padding: 7px;\n}\n.checkout-product thead td {\n	color: #4D4D4D;\n	font-weight: bold;\n	background-color: #F7F7F7;\n	border-bottom: 1px solid #DDDDDD;\n}\n.checkout-product thead .name, .checkout-product thead .model {\n	text-align: left;\n}\n.checkout-product thead .quantity, .checkout-product thead .price, .checkout-product thead .total {\n	text-align: right;\n}\n.checkout-product tbody td {\n	vertical-align: top;\n	border-bottom: 1px solid #DDDDDD;\n}\n.checkout-product tbody .name, .checkout-product tbody .model {\n	text-align: left;\n}\n.checkout-product tbody .quantity, .checkout-product tbody .price, .checkout-product tbody .total {\n	text-align: right;\n}\n.checkout-product tfoot td {\n	text-align: right;\n	border-bottom: 1px solid #DDDDDD;\n}\n.contact-info {\n	overflow: auto;\n}\n.contact-info .left {\n	float: left;\n	width: 48%;\n}\n.contact-info .right {\n	float: left;\n	width: 48%;\n}\n.sitemap-info {\n	overflow: auto;\n	margin-bottom: 40px;\n}\n.sitemap-info .left {\n	float: left;\n	width: 48%;\n}\n.sitemap-info .right {\n	float: left;\n	width: 48%;\n}\n/* footer */ \n#footer {\n	clear: both;\n	overflow: auto;\n	min-height: 100px;\n	padding: 20px;\n	border-top: 1px solid #DBDEE1;\n	border-bottom: 1px solid #DBDEE1;\n	background: #F8F8F8;\n}\n#footer h3 {\n	color: #000000;\n	font-size: 14px;\n	margin-top: 0px;\n	margin-bottom: 8px;\n}\n#footer .column {\n	float: left;\n	width: 25%;\n	min-height: 100px;\n}\n#footer .column ul {\n	margin-top: 0px;\n	margin-left: 8px;\n	padding-left: 12px;\n}\n#footer .column ul li {\n	margin-bottom: 3px;\n}\n#footer .column a {\n	text-decoration: none;\n	color: #000;\n}\n#footer .column a:hover {\n	text-decoration: underline;\n}\n#powered {\n	margin-top: 5px;\n	text-align: right;\n	clear: both;\n}\n/* banner */\n/*\n.banner div {\n	text-align: center;\n	width: 100%;\n	display: none;\n}\n.banner div img {\n	margin-bottom: 20px;\n}\n\n*/\n\n\n/****** MENU ******/\n/* common */\n\n.menu div {}\n.menu {\n    background: #1580b5;  \n    border-radius: 5px;\n    position: relative;\n    width: 100%;  \n}\n.menu h2 {\n    border-bottom: 2px solid #ddd;\n    /* display: block; */\n    text-align: center;\n    color: #fff;\n}\n.menu ul {\n	padding: 0;\n	display: block;\n	list-style-type: none;\n}\n.menu li {\n}\n.menu a {\n	/*float: left;  */\n	text-decoration: none;\n	display: block;\n	color: #fff;\n}\n.menu a:hover {\n	text-decoration: none;\n	color: #fff;\n}\n.menu img {\n	border: none;\n}\n\n.menu-wrap {\n	position: relative;\n	z-index: 4;\n}\n/* 1 level */\n.all-menu {\n    margin: 0;\n    position: relative;\n    padding: 10px 15px;\n    float: left;\n    width: 100%;\n}\n.all-menu > li {\n    padding: 8px 5px;\n    float: left;\n}\n.all-menu > li {\n    font-weight: 400;\n}\n.all-menu > li.heading > span {\n    color: #fff;      \n}\n.all-menu > li.link {}\n.all-menu > li.banner {}\n.all-menu > li.banner > a {}\n.all-menu > li.banner > a > span {}\n.all-menu > li.active {}\n.all-menu > li.active > a {}\n.all-menu > li.active > a > span {}\n.all-menu > li.active > div {}\n.all-menu > li:hover {}\n.all-menu > li:hover > div {\n	display: block;;\n}\n.all-menu > li:hover > a {\n    /*background: url('../image/menu-bg.png');*/\n    border-radius: 5px;\n}\n.all-menu > li > a {\n    padding: 0 5px;\n}\n.all-menu > li.icon > a > img {\n    margin: 6px 2px;\n    height: 16px;\n    width: 16px;\n}\n\n.all-menu > li + li:before {\n	content: '';\n	width: 1px;\n	height: 12px;\n	background: #ffffff;\n	display: block;\n	margin-left: -6px;\n	margin-top: 8px;\n	float: left;\n\n}\n\n.menu-container {\n	/*background: url('../image/menu-bg.png');*/\n	background: rgba(155,255,255,0.6);\n	border-radius: 0px 0px 5px 5px;\n	display: none;\n	-webkit-box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.32);\n	-moz-box-shadow:    0px 2px 3px 0px rgba(50, 50, 50, 0.32);\n	box-shadow:         0px 2px 3px 0px rgba(50, 50, 50, 0.32);\n	z-index:         -1;\n	top:         100%;\n	border-top:         none;\n	border:         1px solid #d2d2d2;\n	padding-top:         3px;\n	position:         absolute;\n	padding:         24px 24px 20px 22px;\n}\n\n.menu-container:after {\n	content: '';\n	display: block;\n	background: #0a6592;\n	height: 8px;\n	position: absolute;\n	top: -4px;\n	left: 0;\n	z-index: -1;\n	right: 0;\n	width: 100%;\n}\n/* 2 level */\n.menu-container > ul {\n}\n.menu-container > ul > li {\n    padding: 0 5px;\n    display: block;\n    float: left;\n}\n\n.all-menu > li:hover > a, .all-menu > li:hover > span {\n	background: #0a6592;\n}\n.all-menu > li > a, .all-menu > li > span {\n	padding: 8px 10px;\n	display: block;\n	text-transform: uppercase;\n	font-size: 12px;\n	border-radius: 5px;\n	line-height: 1em;\n}\n\n.menu-container > ul > li.heading > span {\n    /* display: none; */\n}\n.menu-container > ul > li.heading {\n    cursor: default;\n}\n.menu-container > ul > li.link {}\n.menu-container > ul > li.banner {\n    margin: 0 4px;\n    padding: 4px;\n}\n.menu-container > ul > li.banner:hover {\n	background: url('../image/menu-bg.png');\n	border-radius: 5px;\n}\n.menu-container > ul > li.banner.icon > a {\n	border-radius: 0;\n}\n.menu-container > ul > li.banner > a {\n    position: relative;\n    border-radius: 5px;\n    overflow: hidden;\n    padding: 0;\n}\n.menu-container > ul > li.banner > a > img {\n    width: 120px;\n    height: auto;\n    padding: 0;\n    margin: 0;\n}\n\n.menu-product-img {\n	width: 140px;\n	height: 140px;\n	border: 1px solid #eaeaea;\n	position: relative;\n	overflow: hidden;\n	float: left;\n	padding: 10px;\n	background: #ffffff;\n}\n\n.menu-product-img img {\n	width: 100%;\n	min-height: 100%;\n}\n\n.menu .product .name {\n	font-size: 12px;\n	color: #44b0e6;\n	text-transform: uppercase;\n	text-align: left;\n	display: block;\n}\n\n.menu .product .price {\n	font-size: 16px;\n	font-weight: 700;\n	color: #292432;\n}\n\n.menu .product .btn {\n	display: inline-block;\n	padding: 6px 10px;\n	border-radius: 5px;\n	float: left;\n	line-height: 1em;\n}\n\n.menu .product .btn-buy {\n	border: 1px solid #0b9cdc;\n	color: #fff;\n	background: #15a7e8;\n	clear: both;\n	margin: 0 5px 0 0;\n}\n\n.menu .product .btn-view {\n	border: 1px solid #d4d4d4;\n	background: #ffffff;\n	color: #a4a4a4;\n	\n}\n\n.menu .product .btn-view:hover {\n\n}\n\n.menu-container > ul > .heading > div > ul > .heading > span {\n	color: #eaeaea;\n	font-size: 12px;\n}\n\n/* For menu headings */\n.menu-container > ul > .heading:not(.has-children-0) > span {\n	color: #292432;\n	text-transform: uppercase;\n	font-size: 13px;\n	margin: 0 0 10px;\n	display: block;\n}\n\n.menu-container .heading .link a {\n	color: #15a7e8;\n	padding: 0 0 0 10px;\n}\n\n.menu-container .heading .link:before {\n	content:'-';\n	display: block;\n	float: left;\n	color: #15a7e8;\n	margin: 0 5px 0 0;\n	line-height: 1em;\n}\n\n\n/* LAYOUT MODEL */\n\n.layout-1 .menu-container > ul > li {\n	width: 200px;\n}\n\n.layout-1 .menu-container > ul > li.banner {\n	width: 250px;\n}\n\n.layout-1 .menu-container > ul > .product {\n	width: 325px;\n	border-top: 1px solid #eaeaea;\n}\n\n.layout-1 .menu-container .product {\n	clear: left;\n	height: 157px;\n	position: relative;\n	padding: 15px 10px 0 145px;\n	margin: 15px 0 0;;\n}\n\n.layout-1 .menu-container .product .menu-product-img {\n	position: absolute;\n	top: 15px;\n	left: 0;\n}\n\n.layout-1 .menu-container .product + .product {\n	clear: none;\n}\n\n.layout-1 .product .price, .layout-1 .product .btn {\n	float: left;\n}\n\n.layout-1 .product .name {\n	border-bottom: 1px solid #eaeaea;\n	padding: 10px 0 10px;\n	margin: 0 0 5px;;}\n.layout-1 .product .price {\n	margin: 0 0 5px;}\n.layout-1 .product .btn-view {}\n.layout-1 .product .btn-buy {}",
 			"file": "catalog/view/theme/default/stylesheet/stylesheet.css",
-			"file_size": 36424,
-			"file_write_time": 130445459495008980,
 			"settings":
 			{
-				"buffer_size": 36463,
+				"buffer_size": 39186,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "catalog/view/javascript/common.js",
+			"settings":
+			{
+				"buffer_size": 6385,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "catalog/view/theme/default/stylesheet/style-xs.css",
+			"settings":
+			{
+				"buffer_size": 6240,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "catalog/view/theme/default/stylesheet/component.css",
+			"settings":
+			{
+				"buffer_size": 17699,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/D/WebWork/trash/ResponsiveMultiLevelMenu/index.html",
+			"settings":
+			{
+				"buffer_size": 5516,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "catalog/controller/information/information.php",
+			"settings":
+			{
+				"buffer_size": 4214,
 				"line_ending": "Unix"
 			}
 		}
@@ -615,9 +627,13 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 288.0,
+		"height": 150.0,
 		"selected_items":
 		[
+			[
+				"sshtm",
+				"Set Syntax: HTML"
+			],
 			[
 				"ins",
 				"Package Control: Install Package"
@@ -629,10 +645,6 @@
 			[
 				"ssjs",
 				"Set Syntax: JavaScript"
-			],
-			[
-				"sshtm",
-				"Set Syntax: HTML"
 			],
 			[
 				"open",
@@ -692,6 +704,11 @@
 	},
 	"file_history":
 	[
+		"/D/xampp/sites/foxy.dev/catalog/view/theme/foxystore/css/theme/style.css",
+		"/D/xampp/sites/opencart.dev/catalog/view/theme/default/stylesheet/style-sm.css",
+		"/D/xampp/sites/opencart.dev/system/library/menu_helper.php",
+		"/D/WebWork/trash/foundation-5.1.1/index.html",
+		"/D/WebWork/trash/ResponsiveMultiLevelMenu/index.html",
 		"/D/xampp/sites/opencart.dev/catalog/model/design/menu.php",
 		"/D/xampp/sites/opencart.dev/.gitignore",
 		"/D/xampp/sites/opencart.dev/catalog/model/design/banner.php",
@@ -814,12 +831,7 @@
 		"/D/xampp/sites/kmp/www/catalog/view/theme/kmp/template/account/return_form.tpl",
 		"/D/xampp/sites/kmp/www/catalog/view/theme/kmp/template/account/return_info.tpl",
 		"/D/xampp/sites/kmp/www/catalog/view/theme/kmp/template/account/return_list.tpl",
-		"/D/xampp/sites/kmp/www/catalog/view/theme/kmp/template/account/edit.tpl",
-		"/D/xampp/sites/kmp/www/catalog/view/theme/kmp/template/account/forgotten.tpl",
-		"/D/xampp/sites/kmp/www/catalog/view/theme/kmp/template/account/newsletter.tpl",
-		"/D/xampp/sites/kmp/www/catalog/view/theme/kmp/template/account/order_info.tpl",
-		"/D/xampp/sites/kmp/www/catalog/view/theme/kmp/template/account/order_list.tpl",
-		"/D/xampp/sites/kmp/www/catalog/view/theme/kmp/template/account/password.tpl"
+		"/D/xampp/sites/kmp/www/catalog/view/theme/kmp/template/account/edit.tpl"
 	],
 	"find":
 	{
@@ -830,6 +842,7 @@
 		"height": 0.0,
 		"where_history":
 		[
+			"D:\\xampp\\sites\\opencart.dev",
 			"D:\\xampp\\sites\\bitrix.start",
 			"D:\\xampp\\sites\\pirogi.dev",
 			"D:\\xampp\\sites\\kmp",
@@ -850,6 +863,39 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"calc",
+			"left",
+			"item_left",
+			"visibility 0.1s",
+			"3s",
+			"0.3s ease;",
+			"0.3s",
+			"visibility",
+			"1.3s;",
+			"none",
+			"display",
+			"hidden",
+			"padding",
+			"products",
+			"heading",
+			"products",
+			"layout-1",
+			"hidden",
+			"block",
+			">",
+			"<li class=' link'>",
+			"    							",
+			"><",
+			"dl-animate-in-1",
+			"dl-",
+			";\n",
+			"menu",
+			"color",
+			"0.3s ease;",
+			"text-decoration",
+			"background-color 0.3s ease, ",
+			";;",
+			"background-color 0.3s ease;",
 			"transit",
 			"name",
 			"ffffff",
@@ -944,40 +990,7 @@
 			"$.",
 			"hei",
 			"bottom",
-			"active",
-			":after",
-			"<i class=\"icon\"></i>",
-			"-183px 43px",
-			"scro",
-			"first",
-			"block",
-			"nth",
-			"center",
-			"active_bg",
-			"$(this)",
-			"imgtodrag",
-			"parent",
-			".img",
-			".filter-tab.active.meat",
-			"1",
-			"-in",
-			"9",
-			"1000",
-			"9",
-			"0.9",
-			"mob_fi",
-			"<<<",
-			"resi",
-			"red",
-			"::",
-			";",
-			".mob",
-			".",
-			"filter",
-			"clear",
-			"<a",
-			"div",
-			"                                        <div class=\"item-cart\">"
+			"active"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -996,7 +1009,7 @@
 	"groups":
 	[
 		{
-			"selected": 10,
+			"selected": 8,
 			"sheets":
 			[
 				{
@@ -1112,15 +1125,15 @@
 					"file": "catalog/view/theme/default/template/module/menu.tpl",
 					"settings":
 					{
-						"buffer_size": 585,
+						"buffer_size": 581,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								21,
-								21
+								495,
+								495
 							]
 						],
 						"settings":
@@ -1136,34 +1149,6 @@
 				},
 				{
 					"buffer": 5,
-					"file": "/D/WebWork/trash/foundation-5.1.1/index.html",
-					"settings":
-					{
-						"buffer_size": 6424,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
 					"file": "catalog/controller/module/menu.php",
 					"settings":
 					{
@@ -1174,8 +1159,8 @@
 						"selection":
 						[
 							[
-								373,
-								373
+								375,
+								375
 							]
 						],
 						"settings":
@@ -1190,19 +1175,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 6,
 					"file": "system/library/menu.php",
 					"settings":
 					{
-						"buffer_size": 12999,
+						"buffer_size": 13371,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6257,
-								6257
+								3654,
+								3654
 							]
 						],
 						"settings":
@@ -1212,78 +1197,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2005.0,
+						"translation.y": 1540.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"settings":
-					{
-						"buffer_size": 386,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								386,
-								386
-							]
-						],
-						"settings":
-						{
-							"auto_name": "&lt;li class='{{active}} {{self_class}} has-childr",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "system/library/menu_helper.php",
-					"settings":
-					{
-						"buffer_size": 1087,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1087,
-								1087
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 10,
+					"buffer": 7,
 					"file": "catalog/view/theme/default/stylesheet/stylesheet.css",
 					"settings":
 					{
-						"buffer_size": 36463,
+						"buffer_size": 39186,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								35127,
-								35127
+								33527,
+								33527
 							]
 						],
 						"settings":
@@ -1292,7 +1224,147 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 25802.0,
+						"translation.y": 24285.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "catalog/view/javascript/common.js",
+					"settings":
+					{
+						"buffer_size": 6385,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3718,
+								3718
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1104.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "catalog/view/theme/default/stylesheet/style-xs.css",
+					"settings":
+					{
+						"buffer_size": 6240,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2389,
+								2389
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 868.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "catalog/view/theme/default/stylesheet/component.css",
+					"settings":
+					{
+						"buffer_size": 17699,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								988,
+								988
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 504.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 11,
+					"file": "/D/WebWork/trash/ResponsiveMultiLevelMenu/index.html",
+					"settings":
+					{
+						"buffer_size": 5516,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1166,
+								1166
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "catalog/controller/information/information.php",
+					"settings":
+					{
+						"buffer_size": 4214,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1815,
+								1815
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 980.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1317,11 +1389,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -1345,6 +1424,26 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"cat/cont/in",
+				"catalog/controller/information/information.php"
+			],
+			[
+				"compon",
+				"catalog/view/theme/default/stylesheet/component.css"
+			],
+			[
+				"style-xs",
+				"catalog/view/theme/default/stylesheet/style-xs.css"
+			],
+			[
+				"style-s",
+				"catalog/view/theme/default/stylesheet/style-sm.css"
+			],
+			[
+				"commo",
+				"catalog/view/javascript/common.js"
+			],
 			[
 				"styles",
 				"catalog/view/theme/default/stylesheet/stylesheet.css"
@@ -1400,10 +1499,6 @@
 			[
 				"sofos/he",
 				"www/bitrix/templates/sofos/header.php"
-			],
-			[
-				"commo",
-				"js/common.js"
 			],
 			[
 				"index",
@@ -1840,22 +1935,6 @@
 			[
 				"index.tpl",
 				"design/stroy/html/index.tpl"
-			],
-			[
-				"cartv",
-				"view/CartView.php"
-			],
-			[
-				"cart.tpl",
-				"design/stroy/html/cart.tpl"
-			],
-			[
-				"brands",
-				"api/Brands.php"
-			],
-			[
-				"productsv",
-				"view/ProductsView.php"
 			]
 		],
 		"width": 0.0
@@ -1865,6 +1944,14 @@
 		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"fox",
+				"/D/xampp/sites/foxy.dev/foxy.sublime-project"
+			],
+			[
+				"vk",
+				"/D/xampp/sites/vkuzov.test/vkuzov.test.sublime-project"
+			],
 			[
 				"piro",
 				"/D/xampp/sites/kmp/www/catalog/view/theme/kmp/stylesheet/pirogi.sublime-project"

@@ -101,3 +101,4 @@
 2014-05-14 10:45:14 - PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in D:\xampp\sites\opencart.dev\system\library\menu.php on line 128
 2014-05-14 12:38:09 - PHP Notice:  A non well formed numeric value encountered in D:\xampp\sites\opencart.dev\system\library\image.php on line 96
 2014-05-14 12:38:09 - PHP Notice:  A non well formed numeric value encountered in D:\xampp\sites\opencart.dev\system\library\image.php on line 107
+2014-05-16 13:07:30 - PHP Notice:  Undefined index: code in D:\xampp\sites\opencart.dev\catalog\model\design\menu.php on line 14

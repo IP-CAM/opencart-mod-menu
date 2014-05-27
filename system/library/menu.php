@@ -123,7 +123,7 @@ class Menu {
 
             if ($row['parent'] == $parent)
             {
-                if(self::$responsive && ($row['view_type'] == 'product' || $row['view_type'] == 'banner')) {
+                if(self::$responsive && ($row['view_type'] == 'product')) {
                     continue;
                 }
                 
@@ -188,7 +188,11 @@ class Menu {
 
                     if ($row['image'])
                     {
-                        $r = str_replace('{{image}}', "<img style='float: left;' src='/image/" . $row['image'] . "'>", $r);
+                        if(self::$responsive) {
+                            $r = str_replace('{{image}}', "<img class='img-circle menu-img-r' src='/image/" . $row['image'] . "'>", $r);
+                        } else {
+                            $r = str_replace('{{image}}', "<img style='float: left;' src='/image/" . $row['image'] . "'>", $r);
+                        }
                     }
                     else
                     {

@@ -91,16 +91,54 @@ $(document).ready(function() {
 
 	var $menu = $('.menu-wrap');
 
-	$menu.find('.visible-md .all-menu > li').each(function(){
+		if ($menu.find('.all-menu').hasClass('layout-1')){
+			var $layout = 1;
+		} else if ($menu.find('.all-menu').hasClass('layout-2')) {
+			var $layout = 2;
+		}
 
-		var $products = $(this).find('.menu-container > ul > .product');
-		console.log($products);
-		$(this).find('.menu-container > ul > .product').remove();
-		$(this).find('.menu-container > ul').append($products);
+	if($layout) {
+		$menu.find('.visible-md .all-menu > li').each(function(){
 
-		$products = null;
+			if($layout === 1) {
 
-	});
+				var $products = $(this).find('.menu-container > ul > .product');
+				$(this).find('.menu-container > ul > .product').remove();
+				$(this).find('.menu-container > ul').append($products);
+
+				$products = null;
+			} else if ($layout === 2) {
+				var $items = $(this).find('.menu-container > ul > .heading, .menu-container > ul > .link');
+				console.log($items);
+				$(this).find('.menu-container > ul > .heading, .menu-container > ul > .link').remove();
+				$items.insertAfter($(this).find('.menu-container > ul > li:first-child'));
+
+				$items = null;
+			}
+
+			$menu_container = $(this).find('.menu-container').outerWidth();
+			$item_left = $(this).position('left');
+			$item_left = $item_left['left'];
+			$container = $menu.outerWidth();
+
+			console.log($menu_container);
+			console.log($item_left);
+			console.log($container);
+
+			
+			console.log($menu_container+$item_left);
+			if(($menu_container+$item_left)>$container) {
+				console.log('yes');
+				$calc = ($item_left) + ($container - ($item_left + $menu_container));
+				$(this).find('.menu-container').css('left', $calc);
+			} else {
+				console.log('no');
+				$calc = ($item_left);
+				$(this).find('.menu-container').css('left', $calc);
+			}
+
+		});
+	}
 	$menu = null;
 
 
